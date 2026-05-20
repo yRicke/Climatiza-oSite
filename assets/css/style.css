@@ -67,11 +67,22 @@ a {
 }
 
 .topbar-inner {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   gap: 12px;
   padding: 8px 0;
+}
+
+.topbar-inner p {
+  grid-column: 2;
+  margin: 0;
+  text-align: center;
+}
+
+.topbar-inner .js-whatsapp-link {
+  grid-column: 3;
+  justify-self: end;
 }
 
 .nav-wrap {
@@ -721,6 +732,7 @@ p {
 
 @media (max-width: 680px) {
   .topbar-inner {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
