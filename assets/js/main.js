@@ -215,6 +215,7 @@
             <p><strong>WhatsApp:</strong> <a class="js-whatsapp-link" href="${whatsappUrl()}">${config.phone || "(64) 99237-7425"}</a></p>
             <p><strong>E-mail:</strong> <a href="mailto:${config.email || "marcostec.profissional@gmail.com"}">${config.email || "marcostec.profissional@gmail.com"}</a></p>
             ${config.addressFull ? `<p><strong>Endereço:</strong> ${safeText(config.addressFull)}</p>` : ""}
+            ${config.googleMapsLocation ? `<p><strong>Localização:</strong> <a href="${config.googleMapsLocation}" target="_blank" rel="noopener">Ver no Google Maps</a></p>` : ""}
           </section>
           <section>
             <h2>Links rápidos</h2>

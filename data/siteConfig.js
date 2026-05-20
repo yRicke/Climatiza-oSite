@@ -6,6 +6,7 @@ window.SITE_CONFIG = {
   phoneRaw: "5564992377425",
   email: "marcostec.profissional@gmail.com",
   addressFull: "R. RG 10, Qd.64 - Lt.12 - Res. Gameleira, Rio Verde - GO, 75906-852",
+  googleMapsLocation: "https://maps.app.goo.gl/764NT7aLyGstf1N98",
   addressStreet: "R. RG 10, Qd.64 - Lt.12 - Res. Gameleira",
   addressLocality: "Rio Verde",
   postalCode: "75906-852",
