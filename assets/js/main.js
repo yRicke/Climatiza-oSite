@@ -80,6 +80,9 @@
       ],
       address: {
         "@type": "PostalAddress",
+        streetAddress: config.addressStreet || "",
+        addressLocality: config.addressLocality || "",
+        postalCode: config.postalCode || "",
         addressRegion: config.addressRegion || "GO",
         addressCountry: config.addressCountry || "BR"
       },
@@ -211,6 +214,7 @@
             <p>Venda, instalação e manutenção de ar-condicionado e refrigeração comercial em Goiás.</p>
             <p><strong>WhatsApp:</strong> <a class="js-whatsapp-link" href="${whatsappUrl()}">${config.phone || "(64) 99237-7425"}</a></p>
             <p><strong>E-mail:</strong> <a href="mailto:${config.email || "marcostec.profissional@gmail.com"}">${config.email || "marcostec.profissional@gmail.com"}</a></p>
+            ${config.addressFull ? `<p><strong>Endereço:</strong> ${safeText(config.addressFull)}</p>` : ""}
           </section>
           <section>
             <h2>Links rápidos</h2>
