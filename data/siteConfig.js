@@ -20,21 +20,93 @@ window.SITE_CONFIG = {
     youtube: "https://www.youtube.com/@refrigera_formula",
     google: "https://share.google/031969tEjH2GRi65V"
   },
-  testimonials: [
+  featuredReviews: [
     {
-      name: "Mariana P.",
-      city: "Rio Verde - GO",
-      text: "Atendimento rápido e manutenção muito bem feita. O ar voltou a gelar no mesmo dia."
+      name: "Ana Julia Ortis Ramos",
+      text: "Fui super bem atendida, preço muito justo, recebi muita atenção do atendente Marcos Yuri, rapaz gentil, educado e super profissional. Recomendo muito seu trabalho e fiquei muito satisfeita com a qualidade do serviço."
     },
     {
-      name: "Carlos T.",
-      city: "Caldas Novas - GO",
-      text: "Equipe organizada, explicou tudo sobre limpeza com bolsão e deixou o ambiente limpo."
+      name: "Eduardo Cruvinel",
+      text: "Fui muito bem atendido pelo Marcos, profissional preparado e qualificado. Explicou o que precisava fazer na geladeira e fez com bastante profissionalismo. Indico o trabalho."
     },
     {
-      name: "Fernanda L.",
-      city: "Goiânia - GO",
-      text: "Chamamos para refrigeração comercial e resolveram nosso problema sem parar a operação."
+      name: "Matheus Henrique",
+      text: "Atendimento ótimo, rápido, explica o problema e auxilia com qualquer dúvida. Muito educado e atencioso com os clientes, serviço ficou ótimo."
+    },
+    {
+      name: "Rubens Pertecarrari",
+      text: "Profissional competente e de ótima postura. Relacionamento fácil e seguro no que faz. Estou muito satisfeito."
+    },
+    {
+      name: "Nicolas Farias",
+      text: "Excelente profissional, prestativo, serviço nota 10, agilidade e qualidade. Super recomendo!"
     }
+  ],
+  allReviews: [
+    { name: "Eithor Borges", text: "Trabalhadores bem educados, resolveram meu problema." },
+    { name: "Guilherme Rodrigues", text: "Técnico muito educado e organizado, ótimo serviço." },
+    { name: "Antonio de Assis Ferreira Norberto Filho", text: "Profissionais capacitados e educados!" },
+    { name: "Vivaldo Alves", text: "Muito boa a prestação de serviço, excelente profissional." },
+    { name: "Maiquel Cesca", text: "Ótimo atendimento, pontualidade e rapidez na instalação." },
+    { name: "Fernando Lopes", text: "Gostei muito do trabalho, a limpeza ficou top demais." },
+    { name: "Felipe Rufino", text: "Serviços excelentes! Parceria de primeira!" },
+    { name: "Pablio Ribeiro", text: "Muito bom serviço." },
+    { name: "Paulo Victor", text: "Ótimo atendimento, pessoas maravilhosas e super gentis. Super indico." },
+    { name: "Zeni Luis", text: "Serviço excelente, muito gente boa, recomendo muito." },
+    { name: "Ana Julia Ortis Ramos", text: "Fui super bem atendida, preço muito justo, recebi muita atenção do atendente Marcos Yuri, rapaz gentil, educado e super profissional. Recomendo muito seu trabalho e fiquei muito satisfeita com a qualidade do serviço." },
+    { name: "Kelly Vales", text: "Técnico muito atencioso, fez o serviço sem enrolação e explicou direitinho sem deixar dúvidas." },
+    { name: "Matheus Henrique", text: "Atendimento ótimo, rápido, explica o problema e auxilia com qualquer dúvida. Muito educado e atencioso com os clientes, serviço ficou ótimo." },
+    { name: "Edilson Silva", text: "Muito bom trabalho, dá garantia, resolveu o problema que outro prestador de serviço não resolveu." },
+    { name: "Ivair Junior", text: "Atendimento excelente." },
+    { name: "Carol Jumes", text: "Excelente trabalho, super recomendo." },
+    { name: "Adones Uchoa", text: "Obrigado Yuri, bom profissional." },
+    { name: "Marllon Silveira", text: "Excelente serviço executado, prestativo e com muito conhecimento técnico. Recomendo!" },
+    { name: "Grupo Prado", text: "Ótimo atendimento, visando o melhor para o cliente, muito bom." },
+    { name: "Eduardo Cruvinel", text: "Fui muito bem atendido pelo Marcos, profissional preparado e qualificado. Explicou o que precisava fazer na geladeira e fez com bastante profissionalismo. Indico o trabalho." },
+    { name: "João Pedro", text: "Qualidade top de serviço." },
+    { name: "Liliane Pereira da Silva", text: "Ótimo atendimento, adorei. Muito capricho, serviço 10, top." },
+    { name: "Michelle Costa Alves", text: "Estão de parabéns, são muito educados, com preço acessível e responsáveis." },
+    { name: "Gabrielly Cabral Leão", text: "Experiência incrível do início ao fim, recomendo fortemente!" },
+    { name: "Roberta Silva", text: "Excelente trabalho, profissional muito educado e atencioso, zero reclamações." },
+    { name: "Lazaro Rezende Silva", text: "Excelente, resolução de problemas técnicos com agilidade, preço justo e profissionalismo." },
+    { name: "Danilo Leão", text: "Técnico muito educado e ótimo atendimento." },
+    { name: "Rio Verde", text: "Excelente profissional, muito atencioso, solucionou o problema da minha geladeira por um preço justo." },
+    { name: "Pedro Neves", text: "Ótimo atendimento, atencioso e bom preço." },
+    { name: "Fagner Alves", text: "Esse eu recomendo." },
+    { name: "Marcos Antonio", text: "Fui super bem atendido, preço muito justo, recebi muita atenção do atendente Marcos Yuri, rapaz gentil, educado e super profissional. Recomendo muito." },
+    { name: "Vera Lúcia Alves", text: "Foi ótimo." },
+    { name: "Bianca Pereira", text: "Ótimo atendimento." },
+    { name: "Juliano Luterek", text: "Excelente profissional, tanto pelo conhecimento quanto pelo zelo. Com certeza recomendo." },
+    { name: "Giacomo Sartori", text: "Esse técnico presta um atendimento excelente." },
+    { name: "Elza Alves Deanhaiha", text: "Ótimo, gostei muito. O rapaz muito educado e atencioso." },
+    { name: "Weslieny Cabral Oliveira", text: "Ótimo atendimento e serviço de qualidade!" },
+    { name: "Anne Karoline Santos Oliveira", text: "Serviço rápido e de qualidade. Excelente técnico!" },
+    { name: "Crystoffer Dos Santos", text: "Ótimo atendimento com trabalho de qualidade." },
+    { name: "Angelica Fatima", text: "Serviço de qualidade, ótimo preço e atendimento topíssimo. Super recomendo." },
+    { name: "Marlei Martins Jaime", text: "Fui bem atendida, serviço 100%, pode confiar. Agilidade e bom atendimento." },
+    { name: "Nely Carvalho", text: "Serviço muito bem feito, ótimo trabalho. Profissional caprichoso e atencioso. Recomendo!" },
+    { name: "Ana Júlia", text: "Técnico muito educado, deu diagnóstico certo e resolveu o problema." },
+    { name: "Izoleide Lopes", text: "Fui super bem atendida, preço muito justo, recebi muita atenção do atendente Marcos Yuri, rapaz gentil, educado e super profissional. Recomendo muito seu trabalho e fiquei muito satisfeita." },
+    { name: "Joelso Francisco", text: "Parabéns pelo bom atendimento com pontualidade, eficiência e capacitação. Eu indico." },
+    { name: "Luiz Carlos Lopes Leão", text: "Excelente atendimento e preço justo." },
+    { name: "Nicolas Farias", text: "Excelente profissional, prestativo, serviço nota 10, agilidade e qualidade. Super recomendo!" },
+    { name: "Eduardo Domingos", text: "Ótimo profissional responsável, resolveu meu problema rápido, bastante eficiente. Super indico!" },
+    { name: "Lex Luttor", text: "O técnico Marcos Yuri foi na minha casa e consertou minha geladeira, que ficou 100%. Ótimo atendimento." },
+    { name: "Elismar Maia Pereira", text: "Gostei muito, atendimento rápido e perfeito!" },
+    { name: "Barbearia WM", text: "Ótimo profissional, atendimento excelente." },
+    { name: "Rubens Pertecarrari", text: "Profissional competente e de ótima postura. Relacionamento fácil e seguro no que faz. Estou muito satisfeito." },
+    { name: "Cauê Martins RV", text: "Muito bom de serviço, parabéns." },
+    { name: "Flavia", text: "Ótimo atendimento, arrumou minha geladeira e minha máquina. Empresa muito séria e responsável!" },
+    { name: "Alcelino", text: "Empresa com preço justo e profissionalismo." },
+    { name: "Vitor Emanuel Silva Pereira", text: "Fez um ótimo serviço aqui na empresa. Achei essa empresa no Google e em instantes vieram e resolveram." },
+    { name: "Paulo Silvio", text: "Recomendo essa empresa, excelente serviço e ótimo atendimento." },
+    { name: "Aparecida Magalhães", text: "Ágil e educado." },
+    { name: "Kélly Kélly", text: "Ótimo profissional, realizou um trabalho com qualidade e preço justo." },
+    { name: "Valdirene Rocha", text: "Ótimo." },
+    { name: "Antonio Neto", text: "Me atendeu super rápido e resolveu o problema. Os técnicos são muito educados, super recomendo!" },
+    { name: "Nubiars Rodrigues", text: "Quero agradecer a empresa pelo ótimo atendimento e rapidez no serviço feito com qualidade. Recomendo a todos, empresa de confiança." },
+    { name: "Marina Cristina Borges Brasil", text: "Foi ótima. Serviço de qualidade." },
+    { name: "Ana Flávia Leão De Castro", text: "Excelente profissional, ótimo atendimento e serviço de qualidade." },
+    { name: "Bianca Maia", text: "Fez a troca do motor da minha geladeira, muito atencioso e ótimo atendimento. Satisfeita." }
   ]
 };

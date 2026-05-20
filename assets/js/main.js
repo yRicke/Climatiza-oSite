@@ -314,21 +314,63 @@
       .join("");
   }
 
+  function allReviewsData() {
+    if (Array.isArray(config.allReviews) && config.allReviews.length) return config.allReviews;
+    if (Array.isArray(config.testimonials) && config.testimonials.length) return config.testimonials;
+    return [];
+  }
+
+  function featuredReviewsData() {
+    if (Array.isArray(config.featuredReviews) && config.featuredReviews.length) return config.featuredReviews;
+    return allReviewsData().slice(0, 5);
+  }
+
+  function reviewCardMarkup(item, extraClass = "") {
+    return `
+      <article class="review-card ${extraClass}">
+        <p>"${safeText(item.text)}"</p>
+        <strong>${safeText(item.name)}</strong>
+        ${item.city ? `<span>${safeText(item.city)}</span>` : ""}
+      </article>
+    `;
+  }
+
   function renderReviews(containerId) {
     const container = document.getElementById(containerId);
     if (!container) return;
 
-    container.innerHTML = (config.testimonials || [])
-      .map(
-        (item) => `
-          <article class="review-card">
-            <p>"${safeText(item.text)}"</p>
-            <strong>${safeText(item.name)}</strong>
-            <span>${safeText(item.city)}</span>
-          </article>
-        `
-      )
-      .join("");
+    const featured = featuredReviewsData();
+    if (!featured.length) return;
+
+    const trackId = `${containerId}-track`;
+    const prevId = `${containerId}-prev`;
+    const nextId = `${containerId}-next`;
+
+    const featuredSlides = featured.map((item) => reviewCardMarkup(item, "review-slide")).join("");
+    const ctaSlide = `
+      <article class="review-card review-cta-card review-slide">
+        <h3>Quer ver mais avaliações?</h3>
+        <p>Confira todos os depoimentos reais publicados no perfil da Fórmula Climatização no Google.</p>
+        <a class="btn btn-outline" href="/avaliacoes.html">Ver todas as avaliações</a>
+      </article>
+    `;
+
+    container.className = "review-carousel";
+    container.innerHTML = `
+      <div class="section-header reviews-header">
+        <p class="reviews-count">${allReviewsData().length} avaliações reais de clientes</p>
+        <div class="carousel-controls" aria-label="Controles do carrossel de avaliações">
+          <button id="${prevId}" class="carousel-btn" type="button" aria-label="Avaliação anterior">&lsaquo;</button>
+          <button id="${nextId}" class="carousel-btn" type="button" aria-label="Próxima avaliação">&rsaquo;</button>
+        </div>
+      </div>
+      <div id="${trackId}" class="review-carousel-track" aria-label="Carrossel de avaliações de clientes">
+        ${featuredSlides}
+        ${ctaSlide}
+      </div>
+    `;
+
+    initCarousel(trackId, prevId, nextId, ".review-slide");
   }
 
   function renderBreadcrumb(items) {
@@ -651,6 +693,59 @@
     }
   }
 
+  function renderReviewsPage() {
+    renderBreadcrumb([
+      { label: "Home", href: "/" },
+      { label: "Avaliações", href: "/avaliacoes.html" }
+    ]);
+
+    const list = document.getElementById("all-reviews-list");
+    const controls = document.getElementById("all-reviews-controls");
+    if (!list || !controls) return;
+
+    const reviews = allReviewsData();
+    const step = 5;
+    const minVisible = Math.min(step, reviews.length);
+    let visibleCount = minVisible;
+
+    list.className = "review-list-column";
+
+    function renderVisibleReviews() {
+      list.innerHTML = reviews.slice(0, visibleCount).map((item) => reviewCardMarkup(item)).join("");
+
+      const canShowMore = visibleCount < reviews.length;
+      const canShowLess = visibleCount > minVisible;
+
+      controls.className = "reviews-pagination";
+      controls.innerHTML = `
+        <p class="reviews-pagination-status">Mostrando ${visibleCount} de ${reviews.length} avaliações</p>
+        <div class="reviews-pagination-actions">
+          ${canShowLess ? '<button type="button" class="btn btn-outline" id="reviews-show-less">Ver menos</button>' : ""}
+          ${canShowMore ? '<button type="button" class="btn btn-primary" id="reviews-show-more">Ver mais</button>' : ""}
+        </div>
+      `;
+
+      const showMoreButton = document.getElementById("reviews-show-more");
+      const showLessButton = document.getElementById("reviews-show-less");
+
+      if (showMoreButton) {
+        showMoreButton.addEventListener("click", () => {
+          visibleCount = Math.min(visibleCount + step, reviews.length);
+          renderVisibleReviews();
+        });
+      }
+
+      if (showLessButton) {
+        showLessButton.addEventListener("click", () => {
+          visibleCount = Math.max(visibleCount - step, minVisible);
+          renderVisibleReviews();
+        });
+      }
+    }
+
+    renderVisibleReviews();
+  }
+
   function runPage() {
     renderHeader();
     renderFooter();
@@ -688,6 +783,9 @@
         break;
       case "contact":
         renderContact();
+        break;
+      case "reviews":
+        renderReviewsPage();
         break;
       default:
         break;
