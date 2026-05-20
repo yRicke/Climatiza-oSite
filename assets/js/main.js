@@ -283,8 +283,8 @@
 
   function locationCard(location) {
     return `
-      <article class="card">
-        <img src="/assets/img/city-map.svg" width="480" height="260" alt="Mapa de atendimento em ${safeText(location.name)}" loading="lazy">
+      <article class="card location-card">
+        <img src="${location.image || "/assets/img/city-map.svg"}" width="480" height="260" alt="Atendimento da Fórmula Climatização em ${safeText(location.name)}" loading="lazy">
         <div class="card-body">
           <h3>${safeText(location.name)}</h3>
           <p>${safeText(location.intro)}</p>
@@ -546,6 +546,7 @@
     const location = findLocation(currentSlug);
     const title = document.getElementById("location-title");
     const subtitle = document.getElementById("location-subtitle");
+    const image = document.getElementById("location-image");
     const context = document.getElementById("location-context");
     const servicesList = document.getElementById("location-services");
 
@@ -556,6 +557,10 @@
 
     if (title) title.textContent = `Atendimento em ${location.name} - GO`;
     if (subtitle) subtitle.textContent = location.intro;
+    if (image) {
+      image.src = location.image || "/assets/img/city-map.svg";
+      image.alt = `Imagem da região ${location.name}`;
+    }
     if (context) context.textContent = location.localContext;
 
     if (servicesList) {

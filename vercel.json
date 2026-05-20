@@ -14,11 +14,7 @@
     },
     {
       "source": "/areas-atendidas/:slug",
-      "destination": "/pages/areas-atendidas/:slug.html"
-    },
-    {
-      "source": "/areas-atendidas/:slug.html",
-      "destination": "/pages/areas-atendidas/:slug.html"
+      "destination": "/areas-atendidas/:slug.html"
     }
   ]
 }
