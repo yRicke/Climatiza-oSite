@@ -1,5 +1,85 @@
 window.POSTS = [
   {
+    slug: "como-evitar-geladeira-parar-de-gelar-do-nada",
+    title: "Como evitar que sua geladeira pare de gelar do nada",
+    description: "Entenda os sinais mais comuns de falha e saiba quando procurar assistência.",
+    date: "2026-05-20",
+    category: "Diagnóstico",
+    image: "/assets/img/blog-default.svg",
+    content: [
+      "Oscilações de temperatura e excesso de gelo podem indicar problemas no sistema de refrigeração.",
+      "Ruídos incomuns, borracha de vedação desgastada e motor trabalhando sem parar também merecem atenção.",
+      "Quando o problema é identificado cedo, o custo do reparo costuma ser menor.",
+      "A manutenção preventiva ajuda a evitar perda de alimentos e aumenta a durabilidade do equipamento."
+    ],
+    seoTitle: "Como evitar que sua geladeira pare de gelar do nada | Fórmula Climatização",
+    seoDescription: "Entenda os sinais mais comuns de falha e saiba quando procurar assistência."
+  },
+  {
+    slug: "sinais-camara-fria-manutencao-urgente",
+    title: "4 sinais de que sua câmara fria precisa de manutenção urgente",
+    description: "Pequenas falhas podem causar prejuízos e comprometer mercadorias armazenadas.",
+    date: "2026-05-19",
+    category: "Refrigeração Comercial",
+    image: "/assets/img/blog-default.svg",
+    content: [
+      "Temperatura instável e formação excessiva de gelo são sinais frequentes de falha em câmaras frias.",
+      "Aumento no consumo de energia e vazamentos também indicam necessidade de manutenção técnica.",
+      "Ignorar os primeiros alertas pode causar danos maiores ao sistema de refrigeração.",
+      "A manutenção preventiva reduz riscos de parada e preserva o desempenho do equipamento."
+    ],
+    seoTitle: "4 sinais de que sua câmara fria precisa de manutenção urgente | Fórmula Climatização",
+    seoDescription: "Pequenas falhas podem causar prejuízos e comprometer mercadorias armazenadas."
+  },
+  {
+    slug: "freezer-consumindo-muita-energia-possiveis-motivos",
+    title: "Seu freezer está consumindo muita energia? Veja os possíveis motivos",
+    description: "Alguns sinais simples podem indicar necessidade de revisão no equipamento.",
+    date: "2026-05-18",
+    category: "Eficiência Energética",
+    image: "/assets/img/blog-default.svg",
+    content: [
+      "Freezer demorando para congelar e motor funcionando constantemente podem indicar falhas internas.",
+      "Acúmulo excessivo de gelo e borrachas desgastadas também afetam o desempenho e o consumo elétrico.",
+      "Quanto antes a manutenção for realizada, menor a chance de danos mais caros.",
+      "A revisão periódica melhora a eficiência e prolonga a vida útil do equipamento."
+    ],
+    seoTitle: "Seu freezer está consumindo muita energia? Veja os possíveis motivos | Fórmula Climatização",
+    seoDescription: "Alguns sinais simples podem indicar necessidade de revisão no equipamento."
+  },
+  {
+    slug: "quando-fazer-manutencao-preventiva-balcoes-refrigerados",
+    title: "Quando fazer manutenção preventiva em balcões refrigerados?",
+    description: "A prevenção evita falhas inesperadas e ajuda a manter o funcionamento correto.",
+    date: "2026-05-17",
+    category: "Refrigeração Comercial",
+    image: "/assets/img/blog-default.svg",
+    content: [
+      "Baixa refrigeração e dificuldade para manter a temperatura são sinais comuns de desgaste no sistema.",
+      "Ruídos diferentes, vazamentos e excesso de umidade também indicam necessidade de inspeção técnica.",
+      "A manutenção feita no momento certo evita prejuízos e reduz custos futuros.",
+      "Equipamentos revisados regularmente apresentam melhor desempenho e menor consumo de energia."
+    ],
+    seoTitle: "Quando fazer manutenção preventiva em balcões refrigerados? | Fórmula Climatização",
+    seoDescription: "A prevenção evita falhas inesperadas e ajuda a manter o funcionamento correto."
+  },
+  {
+    slug: "problemas-comuns-ar-condicionado-comercial",
+    title: "5 problemas comuns em ar-condicionado comercial",
+    description: "Identifique os sinais antes que a falha afete o ambiente e o desempenho do equipamento.",
+    date: "2026-05-16",
+    category: "Diagnóstico",
+    image: "/assets/img/blog-default.svg",
+    content: [
+      "Baixa refrigeração e mau cheiro são sintomas frequentes de falta de manutenção no sistema.",
+      "Gotejamento, aumento na conta de energia e desligamentos inesperados também exigem atenção.",
+      "Resolver o problema logo no início ajuda a evitar danos maiores e custos elevados.",
+      "A manutenção preventiva melhora a eficiência do equipamento e reduz riscos de parada inesperada."
+    ],
+    seoTitle: "5 problemas comuns em ar-condicionado comercial | Fórmula Climatização",
+    seoDescription: "Identifique os sinais antes que a falha afete o ambiente e o desempenho do equipamento."
+  },
+  {
     slug: "limpar-ar-condicionado-frequencia",
     title: "De quanto em quanto tempo limpar o ar-condicionado?",
     description: "Entenda a periodicidade ideal de limpeza para manter eficiência e qualidade do ar.",
