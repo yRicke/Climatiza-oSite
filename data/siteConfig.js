@@ -4,7 +4,7 @@ window.SITE_CONFIG = {
   baseUrl: "https://www.formulaclimatizacao.com.br",
   phone: "+55 64 99237-7425",
   phoneRaw: "5564992377425",
-  email: "contato@formulaclimatizacao.com.br",
+  email: "marcostec.profissional@gmail.com",
   openingHours: "Mo-Sa 07:00-18:00",
   addressRegion: "GO",
   addressCountry: "BR",
@@ -12,7 +12,9 @@ window.SITE_CONFIG = {
   mainCities: ["Rio Verde", "Caldas Novas", "Goiânia", "Jataí"],
   whatsappDefaultMessage: "Olá, quero um orçamento da Fórmula Climatização.",
   social: {
-    instagram: "#"
+    instagram: "https://www.instagram.com/refrigeracao_formula/",
+    youtube: "https://www.youtube.com/@refrigera_formula",
+    google: "https://share.google/031969tEjH2GRi65V"
   },
   testimonials: [
     {
@@ -32,4 +34,3 @@ window.SITE_CONFIG = {
     }
   ]
 };
-

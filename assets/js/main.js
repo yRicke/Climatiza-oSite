@@ -1,4 +1,4 @@
-(() => {
+﻿(() => {
   "use strict";
 
   const config = window.SITE_CONFIG || {};
@@ -194,6 +194,15 @@
       .map((item) => `<li><a href="${item.href}">${item.label}</a></li>`)
       .join("");
 
+    const socialLinks = [
+      { label: "Instagram", href: config.social?.instagram },
+      { label: "YouTube", href: config.social?.youtube },
+      { label: "Google", href: config.social?.google }
+    ]
+      .filter((item) => item.href)
+      .map((item) => `<li><a href="${item.href}" target="_blank" rel="noopener">${item.label}</a></li>`)
+      .join("");
+
     footer.innerHTML = `
       <div class="footer-main">
         <div class="container footer-grid">
@@ -201,7 +210,7 @@
             <h2>${config.companyName || "Fórmula Climatização"}</h2>
             <p>Venda, instalação e manutenção de ar-condicionado e refrigeração comercial em Goiás.</p>
             <p><strong>WhatsApp:</strong> <a class="js-whatsapp-link" href="${whatsappUrl()}">${config.phone || "(64) 99237-7425"}</a></p>
-            <p><strong>E-mail:</strong> <a href="mailto:${config.email || "contato@formulaclimatizacao.com.br"}">${config.email || "contato@formulaclimatizacao.com.br"}</a></p>
+            <p><strong>E-mail:</strong> <a href="mailto:${config.email || "marcostec.profissional@gmail.com"}">${config.email || "marcostec.profissional@gmail.com"}</a></p>
           </section>
           <section>
             <h2>Links rápidos</h2>
@@ -212,6 +221,7 @@
             <ul class="footer-links">
               ${(config.mainCities || []).map((city) => `<li>${city}</li>`).join("")}
             </ul>
+            ${socialLinks ? `<h2 class="footer-subtitle">Redes</h2><ul class="footer-links">${socialLinks}</ul>` : ""}
           </section>
         </div>
       </div>
@@ -647,4 +657,6 @@
 
   runPage();
 })();
+
+
 
