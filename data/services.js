@@ -179,6 +179,216 @@ window.SERVICES = [
     seoDescription: "Serviço técnico de instalação e manutenção com andaime para locais de difícil acesso."
   },
   {
+    slug: "desinstalacao-ar-condicionado",
+    name: "Desinstalação de Ar-Condicionado",
+    shortDescription: "Retirada técnica do equipamento com segurança e preparação para reinstalação.",
+    description: "Realizamos desinstalação de ar-condicionado com procedimento técnico para preservar unidade interna, condensadora, tubulação e componentes elétricos.",
+    category: "climatizacao",
+    image: "/assets/img/servico_desinstalacao_ar_condicionado/0.png",
+    galleryImages: ["/assets/img/servico_desinstalacao_ar_condicionado/0.png"],
+    benefits: [
+      "Retirada com menor risco de danos ao equipamento.",
+      "Organização adequada de peças e acessórios para transporte.",
+      "Facilidade para reinstalar em novo local."
+    ],
+    problems: [
+      "Risco de vazamento de fluido por remoção incorreta.",
+      "Danos em conexões, isolamento e dreno.",
+      "Perda de peças na desmontagem improvisada."
+    ],
+    process: [
+      "Avaliação técnica do sistema antes da retirada.",
+      "Desmontagem controlada das unidades e conexões.",
+      "Fechamento, organização dos itens e orientação para reinstalação."
+    ],
+    faq: [
+      { question: "Vocês fazem retirada para mudança de imóvel?", answer: "Sim, a desinstalação pode ser feita para transporte e reinstalação posterior." },
+      { question: "A desinstalação inclui retirada da evaporadora e condensadora?", answer: "Sim, removemos o conjunto completo conforme avaliação do local." }
+    ],
+    seoTitle: "Desinstalação de Ar-Condicionado em Goiás",
+    seoDescription: "Serviço técnico de desinstalação de ar-condicionado com retirada segura para transporte e reinstalação."
+  },
+  {
+    slug: "troca-compressor-ar-condicionado",
+    name: "Troca de Compressor de Ar-Condicionado",
+    shortDescription: "Substituição técnica do compressor para recuperar desempenho e confiabilidade.",
+    description: "Realizamos troca de compressor de ar-condicionado com análise completa do sistema, substituição adequada e testes de funcionamento para garantir operação estável.",
+    category: "climatizacao",
+    image: "/assets/img/servico_troca_compressor_ar_condicionado/0.png",
+    galleryImages: ["/assets/img/servico_troca_compressor_ar_condicionado/0.png"],
+    benefits: [
+      "Recupera capacidade de refrigeração do equipamento.",
+      "Reduz risco de falhas recorrentes no sistema.",
+      "Aumenta a confiabilidade para uso contínuo."
+    ],
+    problems: [
+      "Ar-condicionado não gela como antes.",
+      "Compressor com ruído excessivo ou travado.",
+      "Equipamento desarma por sobrecarga."
+    ],
+    process: [
+      "Diagnóstico técnico para confirmar falha no compressor.",
+      "Substituição com componentes e parâmetros corretos.",
+      "Teste final de pressão, consumo e desempenho térmico."
+    ],
+    faq: [
+      { question: "Vocês trocam compressor de inverter e convencional?", answer: "Sim, atendemos diferentes tecnologias conforme avaliação técnica do equipamento." },
+      { question: "Após a troca vocês fazem os testes completos?", answer: "Sim, finalizamos com testes de funcionamento e validação operacional." }
+    ],
+    seoTitle: "Troca de Compressor de Ar-Condicionado em Goiás",
+    seoDescription: "Serviço técnico para troca de compressor de ar-condicionado com diagnóstico, substituição e testes em Goiás."
+  },
+  {
+    slug: "carga-gas-ar-condicionado",
+    name: "Carga de Gás em Ar-Condicionado",
+    shortDescription: "Ajuste técnico de fluido refrigerante para restabelecer a performance do sistema.",
+    description: "Executamos carga de gás em ar-condicionado com procedimento técnico, medição de pressão e verificação de estanqueidade para garantir eficiência e segurança.",
+    category: "climatizacao",
+    image: "/assets/img/servico_carga_gas_ar_condicionado/0.png",
+    galleryImages: ["/assets/img/servico_carga_gas_ar_condicionado/0.png"],
+    benefits: [
+      "Melhora da capacidade de refrigeração.",
+      "Maior eficiência energética no funcionamento.",
+      "Redução de esforço e desgaste do compressor."
+    ],
+    problems: [
+      "Ar-condicionado com baixo rendimento térmico.",
+      "Sistema com pressão fora do padrão.",
+      "Consumo elevado por operação ineficiente."
+    ],
+    process: [
+      "Avaliação do sistema e diagnóstico de carga.",
+      "Correção do nível de fluido refrigerante conforme especificação.",
+      "Teste final de pressão, temperatura e desempenho."
+    ],
+    faq: [
+      { question: "Vocês verificam vazamento antes da carga?", answer: "Sim, a verificação técnica é parte essencial do procedimento." },
+      { question: "A carga resolve qualquer falha de refrigeração?", answer: "Nem sempre. Primeiro avaliamos se a causa é realmente falta de fluido." }
+    ],
+    seoTitle: "Carga de Gás em Ar-Condicionado em Goiás",
+    seoDescription: "Carga de gás em ar-condicionado com análise técnica, ajuste correto e testes de desempenho em Goiás."
+  },
+  {
+    slug: "manutencao-cervejeira",
+    name: "Manutenção em Cervejeira",
+    shortDescription: "Assistência técnica para cervejeiras com foco em temperatura estável e eficiência.",
+    description: "Fazemos manutenção em cervejeira para corrigir falhas de refrigeração, melhorar desempenho e preservar a temperatura ideal para bebidas.",
+    category: "refrigeracao",
+    image: "/assets/img/servico_manutencao_cervejeira/0.png",
+    galleryImages: ["/assets/img/servico_manutencao_cervejeira/0.png"],
+    benefits: [
+      "Bebidas na temperatura adequada por mais tempo.",
+      "Menor risco de paradas inesperadas.",
+      "Melhor desempenho com menor consumo."
+    ],
+    problems: [
+      "Cervejeira não alcança temperatura ideal.",
+      "Oscilação térmica frequente.",
+      "Ruídos e funcionamento irregular."
+    ],
+    process: [
+      "Diagnóstico técnico do sistema de refrigeração.",
+      "Ajustes, limpeza e correções necessárias.",
+      "Teste final de estabilidade térmica."
+    ],
+    faq: [
+      { question: "Vocês atendem cervejeira comercial e residencial?", answer: "Sim, avaliamos o modelo e aplicamos o procedimento adequado." },
+      { question: "É possível fazer manutenção preventiva periódica?", answer: "Sim, oferecemos manutenção preventiva para reduzir falhas." }
+    ],
+    seoTitle: "Manutenção em Cervejeira em Goiás",
+    seoDescription: "Serviço técnico de manutenção em cervejeira para melhor refrigeração e estabilidade térmica em Goiás."
+  },
+  {
+    slug: "manutencao-geladeira",
+    name: "Manutenção em Geladeira",
+    shortDescription: "Correção e prevenção de falhas para manter a geladeira em operação segura.",
+    description: "Realizamos manutenção em geladeira com diagnóstico completo, ajustes técnicos e correções para recuperar refrigeração e evitar perdas.",
+    category: "refrigeracao",
+    image: "/assets/img/servico_manutencao_geladeira/0.png",
+    galleryImages: ["/assets/img/servico_manutencao_geladeira/0.png"],
+    benefits: [
+      "Recupera desempenho de refrigeração.",
+      "Reduz risco de quebras inesperadas.",
+      "Aumenta a vida útil do equipamento."
+    ],
+    problems: [
+      "Geladeira não refrigera corretamente.",
+      "Gelo excessivo ou vazamento de água.",
+      "Barulho anormal e ciclos irregulares."
+    ],
+    process: [
+      "Avaliação técnica dos componentes principais.",
+      "Reparo e ajustes conforme diagnóstico.",
+      "Teste final de funcionamento e temperatura."
+    ],
+    faq: [
+      { question: "Vocês fazem manutenção preventiva em geladeira?", answer: "Sim, a preventiva ajuda a evitar falhas e prolonga a vida útil." },
+      { question: "Atendem geladeiras de comércio e residência?", answer: "Sim, atendemos diferentes aplicações conforme o tipo de equipamento." }
+    ],
+    seoTitle: "Manutenção em Geladeira em Goiás",
+    seoDescription: "Assistência técnica e manutenção em geladeira com diagnóstico e reparo especializado em Goiás."
+  },
+  {
+    slug: "manutencao-balcao-refrigerado",
+    name: "Manutenção em Balcão Refrigerado",
+    shortDescription: "Serviço técnico para balcões refrigerados com foco em estabilidade e conservação.",
+    description: "Executamos manutenção em balcão refrigerado para garantir temperatura correta, desempenho contínuo e preservação adequada dos produtos.",
+    category: "refrigeracao",
+    image: "/assets/img/servico_manutencao_balcao_refrigerado/0.png",
+    galleryImages: ["/assets/img/servico_manutencao_balcao_refrigerado/0.png"],
+    benefits: [
+      "Melhor conservação de alimentos e bebidas.",
+      "Menor risco de perdas por falhas térmicas.",
+      "Maior confiabilidade para operação comercial."
+    ],
+    problems: [
+      "Balcão com temperatura instável.",
+      "Baixo rendimento de refrigeração.",
+      "Paradas inesperadas em horário de operação."
+    ],
+    process: [
+      "Diagnóstico técnico do sistema e componentes.",
+      "Correções e ajustes necessários.",
+      "Validação final de temperatura e desempenho."
+    ],
+    faq: [
+      { question: "Vocês atendem balcões refrigerados de mercado e padaria?", answer: "Sim, atendemos diversos tipos de operação comercial." },
+      { question: "É possível montar plano de manutenção preventiva?", answer: "Sim, fazemos manutenção recorrente conforme necessidade do cliente." }
+    ],
+    seoTitle: "Manutenção em Balcão Refrigerado em Goiás",
+    seoDescription: "Manutenção técnica em balcão refrigerado com foco em estabilidade térmica e continuidade operacional em Goiás."
+  },
+  {
+    slug: "carga-gas-balcao-frio",
+    name: "Carga de Gás em Balcão Frio",
+    shortDescription: "Recarga técnica de fluido refrigerante para recuperar eficiência do balcão frio.",
+    description: "Fazemos carga de gás em balcão frio com avaliação de pressão, verificação técnica do sistema e ajuste correto para restabelecer refrigeração.",
+    category: "refrigeracao",
+    image: "/assets/img/servico_carga_gas_balcao_frio/0.png",
+    galleryImages: ["/assets/img/servico_carga_gas_balcao_frio/0.png"],
+    benefits: [
+      "Melhora no desempenho de refrigeração.",
+      "Redução de consumo por operação fora do padrão.",
+      "Maior estabilidade térmica no atendimento."
+    ],
+    problems: [
+      "Balcão frio com baixa capacidade de refrigeração.",
+      "Pressão do sistema fora da faixa ideal.",
+      "Temperatura de conservação inadequada."
+    ],
+    process: [
+      "Diagnóstico técnico do circuito refrigerante.",
+      "Ajuste da carga de gás conforme especificação.",
+      "Teste final de pressão e desempenho térmico."
+    ],
+    faq: [
+      { question: "Vocês verificam possíveis vazamentos antes da carga?", answer: "Sim, a avaliação técnica do sistema é realizada antes do ajuste." },
+      { question: "A carga de gás resolve qualquer problema do balcão frio?", answer: "Nem sempre. Primeiro identificamos a causa real da falha." }
+    ],
+    seoTitle: "Carga de Gás em Balcão Frio em Goiás",
+    seoDescription: "Carga de gás em balcão frio com avaliação técnica e ajuste correto para melhor refrigeração em Goiás."
+  },
+  {
     slug: "manutencao-balcoes-frios",
     name: "Manutenção em Balcões Frios",
     shortDescription: "Serviço técnico para preservar temperatura e desempenho de balcões frios.",
