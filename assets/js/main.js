@@ -298,6 +298,50 @@
     `;
   }
 
+  function renderIncrementalServiceGroup(grid, controls, category) {
+    if (!grid || !controls) return;
+
+    const categoryServices = services.filter((service) => service.category === category);
+    const step = 4;
+    const minVisible = Math.min(step, categoryServices.length);
+    let visibleCount = minVisible;
+
+    function updateGroup() {
+      grid.innerHTML = categoryServices.slice(0, visibleCount).map(serviceCard).join("");
+
+      const canShowMore = visibleCount < categoryServices.length;
+      const canShowLess = visibleCount > minVisible;
+
+      controls.className = "reviews-pagination";
+      controls.innerHTML = `
+        <p class="reviews-pagination-status">Mostrando ${visibleCount} de ${categoryServices.length} serviços</p>
+        <div class="reviews-pagination-actions">
+          ${canShowLess ? '<button type="button" class="btn btn-outline services-show-less">Ver menos</button>' : ""}
+          ${canShowMore ? '<button type="button" class="btn btn-primary services-show-more">Ver mais</button>' : ""}
+        </div>
+      `;
+
+      const showMoreButton = controls.querySelector(".services-show-more");
+      const showLessButton = controls.querySelector(".services-show-less");
+
+      if (showMoreButton) {
+        showMoreButton.addEventListener("click", () => {
+          visibleCount = Math.min(visibleCount + step, categoryServices.length);
+          updateGroup();
+        });
+      }
+
+      if (showLessButton) {
+        showLessButton.addEventListener("click", () => {
+          visibleCount = Math.max(visibleCount - step, minVisible);
+          updateGroup();
+        });
+      }
+    }
+
+    updateGroup();
+  }
+
   function renderFaq(containerId, items) {
     const container = document.getElementById(containerId);
     if (!container || !items || !items.length) return;
@@ -471,13 +515,11 @@
   function renderServicesHub() {
     const clim = document.getElementById("services-grid-climatizacao");
     const refrig = document.getElementById("services-grid-refrigeracao");
+    const climControls = document.getElementById("services-controls-climatizacao");
+    const refrigControls = document.getElementById("services-controls-refrigeracao");
 
-    if (clim) {
-      clim.innerHTML = services.filter((s) => s.category === "climatizacao").map(serviceCard).join("");
-    }
-    if (refrig) {
-      refrig.innerHTML = services.filter((s) => s.category === "refrigeracao").map(serviceCard).join("");
-    }
+    renderIncrementalServiceGroup(clim, climControls, "climatizacao");
+    renderIncrementalServiceGroup(refrig, refrigControls, "refrigeracao");
 
     renderBreadcrumb([
       { label: "Home", href: "/" },
@@ -568,9 +610,8 @@
 
   function renderCommercial() {
     const grid = document.getElementById("commercial-services-grid");
-    if (grid) {
-      grid.innerHTML = services.filter((service) => service.category === "refrigeracao").map(serviceCard).join("");
-    }
+    const controls = document.getElementById("commercial-services-controls");
+    renderIncrementalServiceGroup(grid, controls, "refrigeracao");
     renderBreadcrumb([
       { label: "Home", href: "/" },
       { label: "Refrigeração Comercial", href: "/refrigeracao-comercial.html" }
