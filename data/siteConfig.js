@@ -13,7 +13,7 @@ window.SITE_CONFIG = {
   addressRegion: "GO",
   addressCountry: "BR",
   servedState: "Goiás",
-  mainCities: ["Rio Verde", "Caldas Novas", "Goiânia", "Jataí"],
+  mainCities: ["Rio Verde"],
   whatsappDefaultMessage: "Olá, quero um orçamento da Fórmula Climatização.",
   social: {
     instagram: "https://www.instagram.com/refrigeracao_formula/",
@@ -110,3 +110,4 @@ window.SITE_CONFIG = {
     { name: "Bianca Maia", text: "Fez a troca do motor da minha geladeira, muito atencioso e ótimo atendimento. Satisfeita." }
   ]
 };
+

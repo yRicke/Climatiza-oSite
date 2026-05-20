@@ -2,7 +2,7 @@ window.FAQ_DATA = {
   home: [
     {
       question: "Quais cidades a Fórmula Climatização atende?",
-      answer: "Atendemos todo o estado de Goiás, com foco em Rio Verde, Caldas Novas, Goiânia, Jataí e região."
+      answer: "Atendemos Rio Verde e região do entorno próximo. Para cidades mais distantes, avaliamos atendimento conforme o porte do serviço."
     },
     {
       question: "Vocês fazem orçamento pelo WhatsApp?",
@@ -28,3 +28,4 @@ window.FAQ_DATA = {
     }
   ]
 };
+

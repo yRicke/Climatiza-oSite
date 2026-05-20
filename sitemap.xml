@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.formulaclimatizacao.com.br/</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/sobre.html</loc></url>
@@ -11,10 +11,14 @@
 
   <url><loc>https://www.formulaclimatizacao.com.br/servicos/instalacao-ar-condicionado-hi-wall-inverter.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/servicos/manutencao-ar-condicionado.html</loc></url>
+  <url><loc>https://www.formulaclimatizacao.com.br/servicos/venda-ar-condicionado.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/servicos/desinstalacao-ar-condicionado.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/servicos/troca-compressor-ar-condicionado.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/servicos/carga-gas-ar-condicionado.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/servicos/manutencao-cervejeira.html</loc></url>
+  <url><loc>https://www.formulaclimatizacao.com.br/servicos/conserto-geladeira.html</loc></url>
+  <url><loc>https://www.formulaclimatizacao.com.br/servicos/higienizacao-interna-externa-geladeira.html</loc></url>
+  <url><loc>https://www.formulaclimatizacao.com.br/servicos/troca-pecas-geladeira.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/servicos/manutencao-geladeira.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/servicos/manutencao-balcao-refrigerado.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/servicos/carga-gas-balcao-frio.html</loc></url>
@@ -29,11 +33,6 @@
   <url><loc>https://www.formulaclimatizacao.com.br/servicos/manutencao-expositor-bebidas.html</loc></url>
 
   <url><loc>https://www.formulaclimatizacao.com.br/areas-atendidas/rio-verde.html</loc></url>
-  <url><loc>https://www.formulaclimatizacao.com.br/areas-atendidas/caldas-novas.html</loc></url>
-  <url><loc>https://www.formulaclimatizacao.com.br/areas-atendidas/goiania.html</loc></url>
-  <url><loc>https://www.formulaclimatizacao.com.br/areas-atendidas/jatai.html</loc></url>
-  <url><loc>https://www.formulaclimatizacao.com.br/areas-atendidas/goias.html</loc></url>
-
   <url><loc>https://www.formulaclimatizacao.com.br/blog/como-evitar-geladeira-parar-de-gelar-do-nada.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/blog/sinais-camara-fria-manutencao-urgente.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/blog/freezer-consumindo-muita-energia-possiveis-motivos.html</loc></url>
@@ -47,3 +46,4 @@
   <url><loc>https://www.formulaclimatizacao.com.br/blog/problemas-comuns-freezer-industrial.html</loc></url>
   <url><loc>https://www.formulaclimatizacao.com.br/blog/evitar-falhas-expositores-bebidas.html</loc></url>
 </urlset>
+

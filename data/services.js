@@ -30,6 +30,36 @@ window.SERVICES = [
     seoDescription: "Instalação técnica de ar-condicionado Hi-Wall Inverter em Rio Verde, Caldas Novas, Goiânia e região."
   },
   {
+    slug: "venda-ar-condicionado",
+    name: "Venda de Ar-Condicionado",
+    shortDescription: "Venda de ar-condicionado com orientação técnica para escolher o modelo ideal.",
+    description: "Oferecemos venda de ar-condicionado para residências e comércios, com suporte técnico para dimensionamento, indicação de capacidade e melhor custo-benefício.",
+    category: "climatizacao",
+    image: "/assets/img/servico_venda_ar_condicionado/0.png",
+    galleryImages: ["/assets/img/servico_venda_ar_condicionado/0.png", "/assets/img/servico_venda_ar_condicionado/1.png", "/assets/img/servico_venda_ar_condicionado/2.png"],
+    benefits: [
+      "Escolha do equipamento certo para o ambiente.",
+      "Melhor eficiência energética e desempenho térmico.",
+      "Compra com suporte técnico especializado."
+    ],
+    problems: [
+      "Escolha incorreta de capacidade (BTUs).",
+      "Consumo elevado por equipamento inadequado.",
+      "Baixo desempenho por modelo fora da necessidade."
+    ],
+    process: [
+      "Levantamento da necessidade e do ambiente.",
+      "Indicação de modelos e capacidades adequadas.",
+      "Venda com orientação para instalação e uso."
+    ],
+    faq: [
+      { question: "Vocês ajudam a escolher a capacidade ideal do ar-condicionado?", answer: "Sim, orientamos a escolha conforme tamanho do ambiente e uso." },
+      { question: "Também fazem a instalação do equipamento vendido?", answer: "Sim, além da venda oferecemos instalação técnica com equipe especializada." }
+    ],
+    seoTitle: "Venda de Ar-Condicionado em Goiás | Fórmula Climatização",
+    seoDescription: "Venda de ar-condicionado com orientação técnica para residências e comércios em Goiás."
+  },
+  {
     slug: "manutencao-ar-condicionado",
     name: "Manutenção de Ar-Condicionado",
     shortDescription: "Manutenção preventiva e corretiva para manter eficiência e segurança.",
@@ -297,6 +327,96 @@ window.SERVICES = [
     ],
     seoTitle: "Manutenção em Cervejeira em Goiás",
     seoDescription: "Serviço técnico de manutenção em cervejeira para melhor refrigeração e estabilidade térmica em Goiás."
+  },
+  {
+    slug: "conserto-geladeira",
+    name: "Conserto de Geladeira",
+    shortDescription: "Conserto técnico de geladeira com diagnóstico preciso e correção da falha.",
+    description: "Realizamos conserto de geladeira com avaliação completa do sistema de refrigeração, identificação da causa do problema e reparo adequado para recuperar o funcionamento.",
+    category: "refrigeracao",
+    image: "/assets/img/servico_conserto_geladeira/0.png",
+    galleryImages: ["/assets/img/servico_conserto_geladeira/0.png"],
+    benefits: [
+      "Correção rápida de falhas que impedem a refrigeração.",
+      "Menor risco de perda de alimentos e produtos.",
+      "Retorno da operação com maior segurança."
+    ],
+    problems: [
+      "Geladeira não gela ou gela pouco.",
+      "Vazamento de água e formação irregular de gelo.",
+      "Ruído anormal e funcionamento contínuo do motor."
+    ],
+    process: [
+      "Diagnóstico técnico do defeito no equipamento.",
+      "Execução do conserto com peças e ajustes necessários.",
+      "Teste final de temperatura e desempenho."
+    ],
+    faq: [
+      { question: "Vocês atendem geladeira residencial e comercial?", answer: "Sim, atendemos diferentes modelos conforme avaliação técnica." },
+      { question: "O conserto inclui teste de funcionamento?", answer: "Sim, finalizamos com validação de desempenho e temperatura." }
+    ],
+    seoTitle: "Conserto de Geladeira em Goiás | Fórmula Climatização",
+    seoDescription: "Conserto de geladeira com diagnóstico e reparo técnico para restabelecer a refrigeração em Goiás."
+  },
+  {
+    slug: "higienizacao-interna-externa-geladeira",
+    name: "Higienização Interna e Externa de Geladeira",
+    shortDescription: "Higienização técnica para eliminar sujeira, odores e melhorar conservação.",
+    description: "Executamos higienização interna e externa de geladeira com limpeza técnica de superfícies, componentes e áreas de contato, contribuindo para melhor desempenho e qualidade sanitária.",
+    category: "refrigeracao",
+    image: "/assets/img/servico_higienizacao_interna_externa_geladeira/0.png",
+    galleryImages: ["/assets/img/servico_higienizacao_interna_externa_geladeira/0.png"],
+    benefits: [
+      "Redução de odores e contaminações internas.",
+      "Melhor conservação de alimentos.",
+      "Contribui para maior eficiência do equipamento."
+    ],
+    problems: [
+      "Mau cheiro persistente na geladeira.",
+      "Acúmulo de resíduos e umidade excessiva.",
+      "Sujeira em borrachas e áreas de vedação."
+    ],
+    process: [
+      "Inspeção e preparação para limpeza completa.",
+      "Higienização interna e externa com produtos adequados.",
+      "Secagem, acabamento e orientações de rotina."
+    ],
+    faq: [
+      { question: "A higienização ajuda a reduzir cheiro forte?", answer: "Sim, a limpeza técnica é indicada para remoção de odores e resíduos." },
+      { question: "Pode ser feita em geladeira em uso diário?", answer: "Sim, o procedimento é adaptado para residências e comércios." }
+    ],
+    seoTitle: "Higienização de Geladeira em Goiás | Fórmula Climatização",
+    seoDescription: "Higienização interna e externa de geladeira com limpeza técnica e foco em conservação e desempenho."
+  },
+  {
+    slug: "troca-pecas-geladeira",
+    name: "Troca de Peças de Geladeira",
+    shortDescription: "Substituição técnica de peças para recuperar desempenho da geladeira.",
+    description: "Fazemos troca de peças de geladeira após diagnóstico técnico, com substituição de componentes desgastados ou com falha para restabelecer refrigeração e confiabilidade.",
+    category: "refrigeracao",
+    image: "/assets/img/servico_troca_pecas_geladeira/0.png",
+    galleryImages: ["/assets/img/servico_troca_pecas_geladeira/0.png"],
+    benefits: [
+      "Recupera o funcionamento correto do equipamento.",
+      "Evita agravamento de falhas no sistema.",
+      "Aumenta a vida útil da geladeira."
+    ],
+    problems: [
+      "Componentes com desgaste ou falha elétrica.",
+      "Geladeira com desempenho irregular após ajustes.",
+      "Paradas frequentes por peça defeituosa."
+    ],
+    process: [
+      "Diagnóstico da peça com defeito.",
+      "Substituição técnica do componente necessário.",
+      "Teste final de operação e refrigeração."
+    ],
+    faq: [
+      { question: "Vocês trocam peças de diferentes marcas?", answer: "Sim, conforme disponibilidade e compatibilidade do modelo." },
+      { question: "A troca é feita com teste no final?", answer: "Sim, validamos o funcionamento completo após a substituição." }
+    ],
+    seoTitle: "Troca de Peças de Geladeira em Goiás | Fórmula Climatização",
+    seoDescription: "Troca de peças de geladeira com diagnóstico técnico e validação final de funcionamento em Goiás."
   },
   {
     slug: "manutencao-geladeira",
