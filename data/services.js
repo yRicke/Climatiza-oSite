@@ -5,7 +5,7 @@ window.SERVICES = [
     shortDescription: "Instalação técnica com dimensionamento, testes e orientação de uso.",
     description: "Executamos instalação completa de ar-condicionado Hi-Wall Inverter com atenção à posição ideal, infraestrutura elétrica, acabamento e eficiência energética.",
     category: "climatizacao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_intalacao_ar_hi_wall_inverter/0.png",
     benefits: [
       "Melhor desempenho e maior vida útil do equipamento.",
       "Redução de consumo com instalação correta.",
@@ -63,7 +63,7 @@ window.SERVICES = [
     shortDescription: "Higienização técnica com bolsão para limpeza profunda e sem sujeira no ambiente.",
     description: "A limpeza com bolsão permite higienização interna completa do equipamento com maior controle da água e resíduos.",
     category: "climatizacao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_lmpeza_ar_condicionado_com_bolsao/0.png",
     benefits: [
       "Remove sujeira acumulada sem espalhar resíduos.",
       "Melhora a qualidade do ar interno.",
@@ -92,7 +92,7 @@ window.SERVICES = [
     shortDescription: "Diagnóstico e reparo eletrônico para placas de ar-condicionado.",
     description: "Realizamos análise técnica de placas eletrônicas e reparos quando viáveis, reduzindo tempo e custo de substituição completa.",
     category: "climatizacao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_manutencao_reparo_placas_ar_condicionado/0.png",
     benefits: [
       "Recuperação de componentes com avaliação técnica.",
       "Redução de tempo de máquina parada.",
@@ -121,7 +121,7 @@ window.SERVICES = [
     shortDescription: "Preparação de ponto elétrico, dreno e passagem para instalação segura.",
     description: "Executamos infraestrutura para novos projetos e adequações, garantindo base correta para instalação e manutenção.",
     category: "climatizacao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_acompanhamento_de_infraestrutura_ar_condicionado/0.png",
     benefits: [
       "Instalação futura mais rápida e segura.",
       "Melhor acabamento e organização do ambiente.",
@@ -150,7 +150,7 @@ window.SERVICES = [
     shortDescription: "Atendimentos em altura com estrutura e segurança para instalação e manutenção.",
     description: "Quando o acesso exige altura, realizamos instalação e manutenção com andaime e práticas de segurança apropriadas.",
     category: "climatizacao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_instalacao_manutencao_de_ar_com_andaime/0.png",
     benefits: [
       "Acesso seguro a pontos críticos.",
       "Execução técnica com menor risco.",
@@ -179,7 +179,7 @@ window.SERVICES = [
     shortDescription: "Serviço técnico para preservar temperatura e desempenho de balcões frios.",
     description: "Atendemos manutenção de balcões frios para manter conservação adequada de produtos e estabilidade térmica no ponto de venda.",
     category: "refrigeracao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_manutencao_de_balcoes_frios_freezer_industrial/0.png",
     benefits: [
       "Menor risco de perda de mercadoria.",
       "Melhor conservação de alimentos e bebidas.",
@@ -208,7 +208,7 @@ window.SERVICES = [
     shortDescription: "Correção e prevenção de falhas em freezers industriais.",
     description: "Executamos manutenção técnica de freezers industriais com foco em estabilidade térmica, eficiência energética e continuidade operacional.",
     category: "refrigeracao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_manutencao_de_balcoes_frios_freezer_industrial/1.png",
     benefits: [
       "Conservação correta de produtos.",
       "Maior confiabilidade do equipamento.",
@@ -237,7 +237,7 @@ window.SERVICES = [
     shortDescription: "Manutenção preventiva e corretiva para câmaras frias comerciais.",
     description: "Fazemos manutenção em câmara fria para preservar temperatura segura, reduzir falhas e evitar perdas operacionais.",
     category: "refrigeracao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_manutencao_camera_fria/0.png",
     benefits: [
       "Estabilidade térmica e segurança sanitária.",
       "Menos interrupções na operação.",
@@ -266,7 +266,7 @@ window.SERVICES = [
     shortDescription: "Reparo e manutenção de máquinas de sorvete para maior rendimento.",
     description: "Prestamos assistência em máquinas de sorvete para corrigir falhas de refrigeração, consistência e produção.",
     category: "refrigeracao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_manutencao_maquinas_sorvete/0.png",
     benefits: [
       "Melhor consistência do produto final.",
       "Menos paradas durante pico de vendas.",
@@ -295,7 +295,7 @@ window.SERVICES = [
     shortDescription: "Serviço técnico para expositores com refrigeração estável e apresentação ideal.",
     description: "Realizamos manutenção em expositores de bebidas para manter temperatura adequada, reduzir consumo e evitar falhas em horários críticos.",
     category: "refrigeracao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_manutencao_expositor_bebidas/0.png",
     benefits: [
       "Bebidas na temperatura correta para venda.",
       "Menos interrupções e desperdícios.",

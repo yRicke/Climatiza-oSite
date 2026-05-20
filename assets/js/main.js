@@ -443,6 +443,7 @@
     const service = findService(currentSlug);
     const title = document.getElementById("service-title");
     const subtitle = document.getElementById("service-subtitle");
+    const bannerImage = document.getElementById("service-image");
     const description = document.getElementById("service-description");
     const benefits = document.getElementById("service-benefits");
     const problems = document.getElementById("service-problems");
@@ -457,6 +458,10 @@
 
     if (title) title.textContent = service.name;
     if (subtitle) subtitle.textContent = service.shortDescription;
+    if (bannerImage) {
+      bannerImage.src = service.image || "/assets/img/service-default.svg";
+      bannerImage.alt = `Imagem do serviço: ${service.name}`;
+    }
     if (description) description.textContent = service.description;
 
     if (benefits) {

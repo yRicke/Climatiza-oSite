@@ -2,11 +2,7 @@
   "rewrites": [
     {
       "source": "/servicos/:slug",
-      "destination": "/pages/servicos/:slug.html"
-    },
-    {
-      "source": "/servicos/:slug.html",
-      "destination": "/pages/servicos/:slug.html"
+      "destination": "/servicos/:slug.html"
     },
     {
       "source": "/blog/:slug",
