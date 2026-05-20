@@ -658,6 +658,934 @@ window.SERVICES = [
     seoTitle: "Manutenção em Expositor de Bebidas em Goiás",
     seoDescription: "Atendimento técnico para expositores de bebidas com manutenção preventiva e corretiva."
   }
-];
+,
+  {
+    slug: "conserto-ar-condicionado-convencional",
+    name: "Conserto de Ar-Condicionado Convencional",
+    shortDescription: "Reparo técnico para falhas em ar-condicionado convencional.",
+    description: "Realizamos conserto de ar-condicionado convencional com diagnóstico da falha, correção técnica e testes para restabelecer refrigeração e funcionamento adequado.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Conserto de Ar-Condicionado Convencional quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Conserto de Ar-Condicionado Convencional em Goiás | Fórmula Climatização",
+    seoDescription: "Conserto de ar-condicionado convencional com diagnóstico e reparo técnico em Goiás."
+  },
+  {
+    slug: "conserto-ar-condicionado-inverter",
+    name: "Conserto de Ar-Condicionado Inverter",
+    shortDescription: "Reparo técnico para sistemas inverter com falhas de operação.",
+    description: "Executamos conserto de ar-condicionado inverter com análise técnica do sistema, correção da falha e validação do desempenho do equipamento.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Conserto de Ar-Condicionado Inverter quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Conserto de Ar-Condicionado Inverter em Goiás | Fórmula Climatização",
+    seoDescription: "Conserto de ar-condicionado inverter com diagnóstico e reparo técnico em Goiás."
+  },
+  {
+    slug: "conserto-placas-ar-condicionado-inverter",
+    name: "Conserto de Placas de Ar-Condicionado Inverter",
+    shortDescription: "Reparo eletrônico em placas de ar-condicionado inverter.",
+    description: "Fazemos conserto de placas de ar-condicionado inverter com diagnóstico eletrônico, reparo quando viável e testes para recuperar o funcionamento do sistema.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Conserto de Placas de Ar-Condicionado Inverter quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Conserto de Placas de Ar-Condicionado Inverter em Goiás",
+    seoDescription: "Conserto de placas de ar-condicionado inverter com análise técnica e reparo especializado em Goiás."
+  },
+  {
+    slug: "higienizacao-ar-condicionado-split-hi-wall",
+    name: "Higienização de Ar-Condicionado Split Hi-Wall",
+    shortDescription: "Higienização técnica para melhorar qualidade do ar e desempenho.",
+    description: "Realizamos higienização de ar-condicionado Split Hi-Wall com limpeza técnica dos componentes para reduzir sujeira, odores e perda de eficiência.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Higienização de Ar-Condicionado Split Hi-Wall quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Higienização de Ar-Condicionado Split Hi-Wall em Goiás",
+    seoDescription: "Higienização de ar-condicionado Split Hi-Wall com limpeza técnica e melhoria de desempenho em Goiás."
+  },
+  {
+    slug: "higienizacao-ar-condicionado-k7",
+    name: "Higienização de Ar-Condicionado K7",
+    shortDescription: "Higienização técnica para equipamentos K7 com limpeza adequada.",
+    description: "Executamos higienização de ar-condicionado K7 com limpeza técnica dos componentes internos para melhorar circulação de ar, rendimento e conservação do equipamento.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Higienização de Ar-Condicionado K7 quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Higienização de Ar-Condicionado K7 em Goiás",
+    seoDescription: "Higienização técnica de ar-condicionado K7 com foco em limpeza e desempenho em Goiás."
+  },
+  {
+    slug: "higienizacao-ar-condicionado-piso-teto",
+    name: "Higienização de Ar-Condicionado Piso Teto",
+    shortDescription: "Limpeza técnica para equipamentos piso teto com maior eficiência.",
+    description: "Fazemos higienização de ar-condicionado piso teto com procedimento técnico para remover sujeira, reduzir odores e recuperar a eficiência térmica do sistema.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Higienização de Ar-Condicionado Piso Teto quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Higienização de Ar-Condicionado Piso Teto em Goiás",
+    seoDescription: "Higienização de ar-condicionado piso teto com limpeza técnica e foco em desempenho em Goiás."
+  },
+  {
+    slug: "higienizacao-ar-condicionado-hi-wall-com-desinstalacao",
+    name: "Higienização de Ar-Condicionado Hi-Wall com Desinstalação",
+    shortDescription: "Higienização completa com retirada técnica do equipamento.",
+    description: "Realizamos higienização de ar-condicionado Hi-Wall com desinstalação para limpeza mais profunda, tratamento técnico dos componentes e reinstalação adequada.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Higienização de Ar-Condicionado Hi-Wall com Desinstalação quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Higienização de Ar-Condicionado Hi-Wall com Desinstalação em Goiás",
+    seoDescription: "Higienização completa de ar-condicionado Hi-Wall com desinstalação e reinstalação técnica em Goiás."
+  },
+  {
+    slug: "higienizacao-ar-condicionado-piso-teto-com-desinstalacao",
+    name: "Higienização de Ar-Condicionado Piso Teto com Desinstalação",
+    shortDescription: "Limpeza técnica completa com retirada e reinstalação do sistema.",
+    description: "Executamos higienização de ar-condicionado piso teto com desinstalação para limpeza técnica profunda, correções necessárias e reinstalação segura.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Higienização de Ar-Condicionado Piso Teto com Desinstalação quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Higienização de Ar-Condicionado Piso Teto com Desinstalação em Goiás",
+    seoDescription: "Higienização de ar-condicionado piso teto com desinstalação e reinstalação técnica em Goiás."
+  },
+  {
+    slug: "instalacao-ar-condicionado-convencional",
+    name: "Instalação de Ar-Condicionado Convencional",
+    shortDescription: "Instalação técnica de ar-condicionado convencional com testes.",
+    description: "Realizamos instalação de ar-condicionado convencional com posicionamento adequado, acabamento técnico e testes finais para garantir funcionamento correto.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Instalação de Ar-Condicionado Convencional quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Instalação de Ar-Condicionado Convencional em Goiás",
+    seoDescription: "Instalação técnica de ar-condicionado convencional com segurança e testes em Goiás."
+  },
+  {
+    slug: "instalacao-ar-condicionado-piso-teto",
+    name: "Instalação de Ar-Condicionado Piso Teto",
+    shortDescription: "Instalação técnica de sistemas piso teto para ambientes amplos.",
+    description: "Fazemos instalação de ar-condicionado piso teto com avaliação do ambiente, fixação adequada, interligações técnicas e testes completos.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Instalação de Ar-Condicionado Piso Teto quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Instalação de Ar-Condicionado Piso Teto em Goiás",
+    seoDescription: "Instalação de ar-condicionado piso teto com procedimento técnico e testes em Goiás."
+  },
+  {
+    slug: "instalacao-ar-condicionado-k7-4-vias",
+    name: "Instalação de Ar-Condicionado K7 4 Vias",
+    shortDescription: "Instalação técnica de equipamento K7 4 vias com distribuição eficiente.",
+    description: "Executamos instalação de ar-condicionado K7 4 vias com planejamento do ponto, montagem correta e testes de distribuição e desempenho.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Instalação de Ar-Condicionado K7 4 Vias quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Instalação de Ar-Condicionado K7 4 Vias em Goiás",
+    seoDescription: "Instalação técnica de ar-condicionado K7 4 vias com testes e acabamento em Goiás."
+  },
+  {
+    slug: "instalacao-ar-condicionado-k7-1-via",
+    name: "Instalação de Ar-Condicionado K7 1 Via",
+    shortDescription: "Instalação técnica de sistema K7 1 via com ajuste correto.",
+    description: "Realizamos instalação de ar-condicionado K7 1 via com avaliação técnica do ambiente, montagem adequada e testes finais de operação.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Instalação de Ar-Condicionado K7 1 Via quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Instalação de Ar-Condicionado K7 1 Via em Goiás",
+    seoDescription: "Instalação de ar-condicionado K7 1 via com suporte técnico especializado em Goiás."
+  },
+  {
+    slug: "instalacao-ar-condicionado-split-hi-wall",
+    name: "Instalação de Ar-Condicionado Split Hi-Wall",
+    shortDescription: "Instalação técnica de Split Hi-Wall com acabamento e segurança.",
+    description: "Executamos instalação de ar-condicionado Split Hi-Wall com posicionamento correto, interligações técnicas e testes para melhor desempenho.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Instalação de Ar-Condicionado Split Hi-Wall quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Instalação de Ar-Condicionado Split Hi-Wall em Goiás",
+    seoDescription: "Instalação técnica de ar-condicionado Split Hi-Wall com testes e acabamento em Goiás."
+  },
+  {
+    slug: "instalacao-ar-condicionado-multisplit",
+    name: "Instalação de Ar-Condicionado Multisplit",
+    shortDescription: "Instalação técnica de sistemas multisplit para múltiplos ambientes.",
+    description: "Fazemos instalação de ar-condicionado multisplit com planejamento das unidades, interligações corretas e validação do funcionamento do sistema.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Instalação de Ar-Condicionado Multisplit quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Instalação de Ar-Condicionado Multisplit em Goiás",
+    seoDescription: "Instalação de ar-condicionado multisplit com execução técnica e testes em Goiás."
+  },
+  {
+    slug: "instalacao-ar-condicionado-vrv-vrf",
+    name: "Instalação de Ar-Condicionado VRV e VRF",
+    shortDescription: "Instalação técnica de sistemas VRV e VRF para projetos de maior porte.",
+    description: "Realizamos instalação de ar-condicionado VRV e VRF com acompanhamento técnico, integração do sistema e testes de operação conforme projeto.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Instalação de Ar-Condicionado VRV e VRF quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Instalação de Ar-Condicionado VRV e VRF em Goiás",
+    seoDescription: "Instalação técnica de sistemas VRV e VRF com suporte especializado em Goiás."
+  },
+  {
+    slug: "troca-sensor-ar-condicionado",
+    name: "Troca de Sensor de Ar-Condicionado",
+    shortDescription: "Substituição técnica de sensor para recuperar leitura e funcionamento.",
+    description: "Executamos troca de sensor de ar-condicionado com diagnóstico da falha, substituição adequada do componente e testes de operação.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Sensor de Ar-Condicionado quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Sensor de Ar-Condicionado em Goiás",
+    seoDescription: "Troca de sensor de ar-condicionado com diagnóstico e substituição técnica em Goiás."
+  },
+  {
+    slug: "conserto-vazamento-gas-ar-condicionado",
+    name: "Conserto de Vazamento de Gás de Ar-Condicionado",
+    shortDescription: "Correção técnica de vazamento no circuito refrigerante.",
+    description: "Realizamos conserto de vazamento de gás de ar-condicionado com localização da falha, correção do ponto de escape e testes de estanqueidade.",
+    category: "climatizacao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Conserto de Vazamento de Gás de Ar-Condicionado quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Conserto de Vazamento de Gás de Ar-Condicionado em Goiás",
+    seoDescription: "Conserto de vazamento de gás de ar-condicionado com localização da falha e reparo técnico em Goiás."
+  },
+  {
+    slug: "troca-compressor-geladeira",
+    name: "Troca de Compressor de Geladeira",
+    shortDescription: "Substituição técnica do compressor para recuperar refrigeração.",
+    description: "Fazemos troca de compressor de geladeira com diagnóstico do sistema, substituição do componente e testes para restabelecer desempenho e confiabilidade.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Compressor de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Compressor de Geladeira em Goiás",
+    seoDescription: "Troca de compressor de geladeira com diagnóstico e substituição técnica em Goiás."
+  },
+  {
+    slug: "troca-motor-geladeira",
+    name: "Troca de Motor de Geladeira",
+    shortDescription: "Substituição técnica do motor da geladeira com teste final.",
+    description: "Executamos troca de motor de geladeira com análise da falha, substituição adequada do componente e validação do funcionamento do equipamento.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Motor de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Motor de Geladeira em Goiás",
+    seoDescription: "Troca de motor de geladeira com suporte técnico especializado em Goiás."
+  },
+  {
+    slug: "troca-sensor-temperatura-geladeira",
+    name: "Troca de Sensor de Temperatura de Geladeira",
+    shortDescription: "Substituição de sensor para corrigir leitura e controle térmico.",
+    description: "Realizamos troca de sensor de temperatura de geladeira para corrigir falhas de leitura, melhorar o controle térmico e recuperar o funcionamento correto.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Sensor de Temperatura de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Sensor de Temperatura de Geladeira em Goiás",
+    seoDescription: "Troca de sensor de temperatura de geladeira com diagnóstico e reparo técnico em Goiás."
+  },
+  {
+    slug: "troca-sensor-degelo-geladeira",
+    name: "Troca de Sensor de Degelo de Geladeira",
+    shortDescription: "Substituição técnica do sensor de degelo com teste de funcionamento.",
+    description: "Fazemos troca de sensor de degelo de geladeira com análise do sistema, substituição do componente e validação do ciclo de degelo.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Sensor de Degelo de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Sensor de Degelo de Geladeira em Goiás",
+    seoDescription: "Troca de sensor de degelo de geladeira com suporte técnico em Goiás."
+  },
+  {
+    slug: "troca-ventilador-geladeira",
+    name: "Troca de Ventilador de Geladeira",
+    shortDescription: "Substituição do ventilador para recuperar circulação e refrigeração.",
+    description: "Executamos troca de ventilador de geladeira com diagnóstico da falha, substituição adequada e testes para restabelecer circulação interna de ar.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Ventilador de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Ventilador de Geladeira em Goiás",
+    seoDescription: "Troca de ventilador de geladeira com diagnóstico e substituição técnica em Goiás."
+  },
+  {
+    slug: "troca-resistencia-geladeira",
+    name: "Troca de Resistência de Geladeira",
+    shortDescription: "Substituição técnica da resistência para corrigir falhas de degelo.",
+    description: "Realizamos troca de resistência de geladeira com verificação do sistema de degelo, substituição do componente e testes de funcionamento.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Resistência de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Resistência de Geladeira em Goiás",
+    seoDescription: "Troca de resistência de geladeira com avaliação técnica e substituição em Goiás."
+  },
+  {
+    slug: "troca-placa-potencia-geladeira",
+    name: "Troca de Placa de Potência de Geladeira",
+    shortDescription: "Substituição da placa de potência com validação do sistema.",
+    description: "Fazemos troca de placa de potência de geladeira com diagnóstico eletrônico, substituição técnica e testes para recuperar o funcionamento do equipamento.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Placa de Potência de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Placa de Potência de Geladeira em Goiás",
+    seoDescription: "Troca de placa de potência de geladeira com diagnóstico e substituição técnica em Goiás."
+  },
+  {
+    slug: "troca-placa-interface-geladeira",
+    name: "Troca de Placa Interface de Geladeira",
+    shortDescription: "Substituição da placa interface para recuperar comandos e operação.",
+    description: "Executamos troca de placa interface de geladeira com análise da falha, substituição do componente e teste dos comandos do equipamento.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Placa Interface de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Placa Interface de Geladeira em Goiás",
+    seoDescription: "Troca de placa interface de geladeira com suporte técnico especializado em Goiás."
+  },
+  {
+    slug: "linha-succao-geladeira",
+    name: "Troca de Linha de Sucção de Geladeira",
+    shortDescription: "Correção técnica da linha de sucção para restabelecer o circuito.",
+    description: "Realizamos serviço na linha de sucção de geladeira com avaliação do circuito, correção técnica e testes para recuperar a eficiência da refrigeração.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Linha de Sucção de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Serviço em Linha de Sucção de Geladeira em Goiás",
+    seoDescription: "Serviço técnico em linha de sucção de geladeira com diagnóstico e correção em Goiás."
+  },
+  {
+    slug: "pre-condensadora-geladeira",
+    name: "Troca de Pré-Condensadora de Geladeira",
+    shortDescription: "Substituição técnica da pré-condensadora com validação do sistema.",
+    description: "Executamos troca de pré-condensadora de geladeira com avaliação técnica do circuito, substituição do componente e testes de desempenho.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Pré-Condensadora de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Pré-Condensadora de Geladeira em Goiás",
+    seoDescription: "Troca de pré-condensadora de geladeira com suporte técnico em Goiás."
+  },
+  {
+    slug: "carga-gas-geladeira",
+    name: "Carga de Gás em Geladeira",
+    shortDescription: "Ajuste técnico de fluido refrigerante para recuperar desempenho.",
+    description: "Fazemos carga de gás em geladeira com avaliação de pressão, verificação do sistema e ajuste correto para restabelecer a refrigeração.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Carga de Gás em Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Carga de Gás em Geladeira em Goiás",
+    seoDescription: "Carga de gás em geladeira com avaliação técnica e ajuste correto em Goiás."
+  },
+  {
+    slug: "troca-evaporador-geladeira",
+    name: "Troca do Evaporador de Geladeira",
+    shortDescription: "Substituição técnica do evaporador para corrigir falhas de refrigeração.",
+    description: "Realizamos troca do evaporador de geladeira com diagnóstico da falha, substituição do componente e testes para recuperar desempenho térmico.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca do Evaporador de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca do Evaporador de Geladeira em Goiás",
+    seoDescription: "Troca do evaporador de geladeira com diagnóstico e substituição técnica em Goiás."
+  },
+  {
+    slug: "conserto-vazamento-gas-geladeira",
+    name: "Conserto de Vazamento de Gás em Geladeira",
+    shortDescription: "Correção técnica de vazamento no circuito da geladeira.",
+    description: "Executamos conserto de vazamento de gás em geladeira com localização da falha, reparo do circuito e testes de estanqueidade e desempenho.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Conserto de Vazamento de Gás em Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Conserto de Vazamento de Gás em Geladeira em Goiás",
+    seoDescription: "Conserto de vazamento de gás em geladeira com localização da falha e reparo técnico em Goiás."
+  },
+  {
+    slug: "troca-porta-geladeira",
+    name: "Troca de Porta de Geladeira",
+    shortDescription: "Substituição da porta para melhorar vedação, uso e conservação.",
+    description: "Fazemos troca de porta de geladeira com avaliação do encaixe, substituição adequada e verificação da vedação do equipamento.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Porta de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Porta de Geladeira em Goiás",
+    seoDescription: "Troca de porta de geladeira com ajuste técnico e verificação de vedação em Goiás."
+  },
+  {
+    slug: "troca-filtro-geladeira",
+    name: "Troca de Filtro de Geladeira",
+    shortDescription: "Substituição técnica do filtro para manter desempenho e qualidade.",
+    description: "Realizamos troca de filtro de geladeira com verificação do modelo, substituição correta do componente e orientação de manutenção.",
+    category: "refrigeracao",
+    image: "/assets/img/service-default.svg",
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Filtro de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Filtro de Geladeira em Goiás",
+    seoDescription: "Troca de filtro de geladeira com suporte técnico e substituição adequada em Goiás."
+  }];
 
 
