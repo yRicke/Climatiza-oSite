@@ -71,7 +71,7 @@
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       name: config.companyName,
-      image: `${config.baseUrl}/assets/img/hero-climatizacao.svg`,
+      image: `${config.baseUrl}/assets/img/hero-climatizacao.png`,
       telephone: config.phone,
       email: config.email,
       areaServed: [
@@ -643,6 +643,7 @@
     const meta = document.getElementById("post-meta");
     const desc = document.getElementById("post-description");
     const content = document.getElementById("post-content");
+    const postImage = document.querySelector(".post-article img");
     const related = document.getElementById("related-posts");
 
     if (!post) {
@@ -653,6 +654,10 @@
     if (title) title.textContent = post.title;
     if (meta) meta.textContent = `${formatDate(post.date)} | ${post.category}`;
     if (desc) desc.textContent = post.description;
+    if (postImage) {
+      postImage.src = post.image || "/assets/img/blog-default.svg";
+      postImage.alt = `Imagem da postagem: ${post.title}`;
+    }
     if (content) {
       content.innerHTML = post.content.map((paragraph) => `<p>${safeText(paragraph)}</p>`).join("");
     }
