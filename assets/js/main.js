@@ -346,14 +346,14 @@
     `;
   }
 
-  function initCarousel(trackId, prevId, nextId) {
+  function initCarousel(trackId, prevId, nextId, itemSelector = ".card") {
     const track = document.getElementById(trackId);
     const prevButton = document.getElementById(prevId);
     const nextButton = document.getElementById(nextId);
     if (!track || !prevButton || !nextButton) return;
 
     const getStep = () => {
-      const firstCard = track.querySelector(".card");
+      const firstCard = track.querySelector(itemSelector);
       if (!firstCard) return track.clientWidth;
       const styles = window.getComputedStyle(track);
       const gap = parseFloat(styles.columnGap || styles.gap || "16");
@@ -444,6 +444,8 @@
     const title = document.getElementById("service-title");
     const subtitle = document.getElementById("service-subtitle");
     const bannerImage = document.getElementById("service-image");
+    const gallerySection = document.getElementById("service-gallery-section");
+    const galleryTrack = document.getElementById("service-gallery-track");
     const description = document.getElementById("service-description");
     const benefits = document.getElementById("service-benefits");
     const problems = document.getElementById("service-problems");
@@ -462,6 +464,29 @@
       bannerImage.src = service.image || "/assets/img/service-default.svg";
       bannerImage.alt = `Imagem do serviço: ${service.name}`;
     }
+
+    if (gallerySection && galleryTrack) {
+      const galleryImages = Array.isArray(service.galleryImages) ? service.galleryImages : [];
+      const extraImages = galleryImages.slice(1);
+
+      if (extraImages.length) {
+        gallerySection.hidden = false;
+        galleryTrack.innerHTML = extraImages
+          .map(
+            (src, index) => `
+              <article class="gallery-slide">
+                <img src="${src}" alt="Imagem ${index + 2} do serviço ${safeText(service.name)}" width="1200" height="720" loading="lazy">
+              </article>
+            `
+          )
+          .join("");
+        initCarousel("service-gallery-track", "service-gallery-prev", "service-gallery-next", ".gallery-slide");
+      } else {
+        gallerySection.hidden = true;
+        galleryTrack.innerHTML = "";
+      }
+    }
+
     if (description) description.textContent = service.description;
 
     if (benefits) {

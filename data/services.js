@@ -6,6 +6,7 @@ window.SERVICES = [
     description: "Executamos instalação completa de ar-condicionado Hi-Wall Inverter com atenção à posição ideal, infraestrutura elétrica, acabamento e eficiência energética.",
     category: "climatizacao",
     image: "/assets/img/servico_intalacao_ar_hi_wall_inverter/0.png",
+    galleryImages: ["/assets/img/servico_intalacao_ar_hi_wall_inverter/0.png", "/assets/img/servico_intalacao_ar_hi_wall_inverter/1.png", "/assets/img/servico_intalacao_ar_hi_wall_inverter/2.png", "/assets/img/servico_intalacao_ar_hi_wall_inverter/3.png"],
     benefits: [
       "Melhor desempenho e maior vida útil do equipamento.",
       "Redução de consumo com instalação correta.",
@@ -34,7 +35,8 @@ window.SERVICES = [
     shortDescription: "Manutenção preventiva e corretiva para manter eficiência e segurança.",
     description: "Fazemos manutenção de ar-condicionado para prevenir falhas, melhorar o desempenho e aumentar a durabilidade dos equipamentos.",
     category: "climatizacao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_manutencao_ar/0.png",
+    galleryImages: ["/assets/img/servico_manutencao_ar/0.png", "/assets/img/servico_manutencao_ar/1.png", "/assets/img/servico_manutencao_ar/2.png", "/assets/img/servico_manutencao_ar/4.png"],
     benefits: [
       "Reduz risco de quebras inesperadas.",
       "Melhora a qualidade do ar e a eficiência térmica.",
@@ -64,6 +66,7 @@ window.SERVICES = [
     description: "A limpeza com bolsão permite higienização interna completa do equipamento com maior controle da água e resíduos.",
     category: "climatizacao",
     image: "/assets/img/servico_lmpeza_ar_condicionado_com_bolsao/0.png",
+    galleryImages: ["/assets/img/servico_lmpeza_ar_condicionado_com_bolsao/0.png", "/assets/img/servico_lmpeza_ar_condicionado_com_bolsao/1.png"],
     benefits: [
       "Remove sujeira acumulada sem espalhar resíduos.",
       "Melhora a qualidade do ar interno.",
@@ -122,6 +125,7 @@ window.SERVICES = [
     description: "Executamos infraestrutura para novos projetos e adequações, garantindo base correta para instalação e manutenção.",
     category: "climatizacao",
     image: "/assets/img/servico_acompanhamento_de_infraestrutura_ar_condicionado/0.png",
+    galleryImages: ["/assets/img/servico_acompanhamento_de_infraestrutura_ar_condicionado/0.png", "/assets/img/servico_acompanhamento_de_infraestrutura_ar_condicionado/1.png"],
     benefits: [
       "Instalação futura mais rápida e segura.",
       "Melhor acabamento e organização do ambiente.",
@@ -151,6 +155,7 @@ window.SERVICES = [
     description: "Quando o acesso exige altura, realizamos instalação e manutenção com andaime e práticas de segurança apropriadas.",
     category: "climatizacao",
     image: "/assets/img/servico_instalacao_manutencao_de_ar_com_andaime/0.png",
+    galleryImages: ["/assets/img/servico_instalacao_manutencao_de_ar_com_andaime/0.png", "/assets/img/servico_instalacao_manutencao_de_ar_com_andaime/1.png", "/assets/img/servico_instalacao_manutencao_de_ar_com_andaime/2.png", "/assets/img/servico_instalacao_manutencao_de_ar_com_andaime/3.png", "/assets/img/servico_instalacao_manutencao_de_ar_com_andaime/4.png", "/assets/img/servico_instalacao_manutencao_de_ar_com_andaime/5.png"],
     benefits: [
       "Acesso seguro a pontos críticos.",
       "Execução técnica com menor risco.",
@@ -180,6 +185,7 @@ window.SERVICES = [
     description: "Atendemos manutenção de balcões frios para manter conservação adequada de produtos e estabilidade térmica no ponto de venda.",
     category: "refrigeracao",
     image: "/assets/img/servico_manutencao_de_balcoes_frios_freezer_industrial/0.png",
+    galleryImages: ["/assets/img/servico_manutencao_de_balcoes_frios_freezer_industrial/0.png", "/assets/img/servico_manutencao_de_balcoes_frios_freezer_industrial/1.png", "/assets/img/servico_manutencao_de_balcoes_frios_freezer_industrial/2.png"],
     benefits: [
       "Menor risco de perda de mercadoria.",
       "Melhor conservação de alimentos e bebidas.",
@@ -209,6 +215,7 @@ window.SERVICES = [
     description: "Executamos manutenção técnica de freezers industriais com foco em estabilidade térmica, eficiência energética e continuidade operacional.",
     category: "refrigeracao",
     image: "/assets/img/servico_manutencao_de_balcoes_frios_freezer_industrial/1.png",
+    galleryImages: ["/assets/img/servico_manutencao_de_balcoes_frios_freezer_industrial/1.png", "/assets/img/servico_manutencao_de_balcoes_frios_freezer_industrial/0.png", "/assets/img/servico_manutencao_de_balcoes_frios_freezer_industrial/2.png"],
     benefits: [
       "Conservação correta de produtos.",
       "Maior confiabilidade do equipamento.",
@@ -238,6 +245,7 @@ window.SERVICES = [
     description: "Fazemos manutenção em câmara fria para preservar temperatura segura, reduzir falhas e evitar perdas operacionais.",
     category: "refrigeracao",
     image: "/assets/img/servico_manutencao_camera_fria/0.png",
+    galleryImages: ["/assets/img/servico_manutencao_camera_fria/0.png", "/assets/img/servico_manutencao_camera_fria/1.png"],
     benefits: [
       "Estabilidade térmica e segurança sanitária.",
       "Menos interrupções na operação.",
@@ -267,6 +275,7 @@ window.SERVICES = [
     description: "Prestamos assistência em máquinas de sorvete para corrigir falhas de refrigeração, consistência e produção.",
     category: "refrigeracao",
     image: "/assets/img/servico_manutencao_maquinas_sorvete/0.png",
+    galleryImages: ["/assets/img/servico_manutencao_maquinas_sorvete/0.png", "/assets/img/servico_manutencao_maquinas_sorvete/1.png"],
     benefits: [
       "Melhor consistência do produto final.",
       "Menos paradas durante pico de vendas.",
@@ -296,6 +305,7 @@ window.SERVICES = [
     description: "Realizamos manutenção em expositores de bebidas para manter temperatura adequada, reduzir consumo e evitar falhas em horários críticos.",
     category: "refrigeracao",
     image: "/assets/img/servico_manutencao_expositor_bebidas/0.png",
+    galleryImages: ["/assets/img/servico_manutencao_expositor_bebidas/0.png", "/assets/img/servico_manutencao_expositor_bebidas/1.png", "/assets/img/servico_manutencao_expositor_bebidas/2.png", "/assets/img/servico_manutencao_expositor_bebidas/3.png", "/assets/img/servico_manutencao_expositor_bebidas/4.png"],
     benefits: [
       "Bebidas na temperatura correta para venda.",
       "Menos interrupções e desperdícios.",
@@ -319,3 +329,5 @@ window.SERVICES = [
     seoDescription: "Atendimento técnico para expositores de bebidas com manutenção preventiva e corretiva."
   }
 ];
+
+
