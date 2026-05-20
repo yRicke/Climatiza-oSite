@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de áreas atendidas</title>
+  <desc id="desc">Ilustração representando atendimento regional em Goiás</desc>
+  <rect width="640" height="360" fill="#edf8ff"/>
+  <path d="M174 120l88-46 110 18 88 72-24 108-110 42-116-26-64-80z" fill="#2ea8df" opacity=".35"/>
+  <path d="M214 136l66-28 82 12 66 52-16 70-84 32-90-20-46-60z" fill="#0e5a9c" opacity=".6"/>
+  <circle cx="280" cy="168" r="10" fill="#ffffff"/>
+  <circle cx="340" cy="192" r="10" fill="#ffffff"/>
+  <circle cx="392" cy="210" r="10" fill="#ffffff"/>
+  <path d="M280 168l60 24 52 18" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+</svg>

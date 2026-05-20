@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/servicos/:slug",
+      "destination": "/pages/servicos/:slug.html"
+    },
+    {
+      "source": "/servicos/:slug.html",
+      "destination": "/pages/servicos/:slug.html"
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/pages/blog/:slug.html"
+    },
+    {
+      "source": "/blog/:slug.html",
+      "destination": "/pages/blog/:slug.html"
+    },
+    {
+      "source": "/areas-atendidas/:slug",
+      "destination": "/pages/areas-atendidas/:slug.html"
+    },
+    {
+      "source": "/areas-atendidas/:slug.html",
+      "destination": "/pages/areas-atendidas/:slug.html"
+    }
+  ]
+}

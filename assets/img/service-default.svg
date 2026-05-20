@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Serviços de climatização e refrigeração</title>
+  <desc id="desc">Ilustração para serviços técnicos de climatização</desc>
+  <defs>
+    <linearGradient id="grad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0e5a9c"/>
+      <stop offset="100%" stop-color="#2ea8df"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="#eef7ff"/>
+  <rect x="54" y="70" width="530" height="220" rx="20" fill="url(#grad)"/>
+  <rect x="90" y="104" width="460" height="60" rx="14" fill="#ffffff" opacity=".95"/>
+  <rect x="90" y="184" width="200" height="18" rx="9" fill="#b8ddf7"/>
+  <rect x="90" y="212" width="170" height="18" rx="9" fill="#b8ddf7"/>
+  <circle cx="470" cy="210" r="46" fill="#ffffff"/>
+  <path d="M470 178v64M438 210h64" stroke="#0e5a9c" stroke-width="7" stroke-linecap="round"/>
+</svg>
