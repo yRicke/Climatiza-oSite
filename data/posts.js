@@ -5,7 +5,7 @@ window.POSTS = [
     description: "Entenda os sinais mais comuns de falha e saiba quando procurar assistência.",
     date: "2026-05-20",
     category: "Diagnóstico",
-    image: "/assets/img/blog/como-evitar-geladeira-parar-de-gelar-do-nada.png",
+    image: "/assets/img/blog/como-evitar-geladeira-parar-de-gelar-do-nada.webp",
     content: [
       "Oscilações de temperatura e excesso de gelo podem indicar problemas no sistema de refrigeração.",
       "Ruídos incomuns, borracha de vedação desgastada e motor trabalhando sem parar também merecem atenção.",
@@ -21,7 +21,7 @@ window.POSTS = [
     description: "Pequenas falhas podem causar prejuízos e comprometer mercadorias armazenadas.",
     date: "2026-05-19",
     category: "Refrigeração Comercial",
-    image: "/assets/img/blog/sinais-camara-fria-manutencao-urgente.png",
+    image: "/assets/img/blog/sinais-camara-fria-manutencao-urgente.webp",
     content: [
       "Temperatura instável e formação excessiva de gelo são sinais frequentes de falha em câmaras frias.",
       "Aumento no consumo de energia e vazamentos também indicam necessidade de manutenção técnica.",
@@ -37,7 +37,7 @@ window.POSTS = [
     description: "Alguns sinais simples podem indicar necessidade de revisão no equipamento.",
     date: "2026-05-18",
     category: "Eficiência Energética",
-    image: "/assets/img/blog/freezer-consumindo-muita-energia-possiveis-motivos.png",
+    image: "/assets/img/blog/freezer-consumindo-muita-energia-possiveis-motivos.webp",
     content: [
       "Freezer demorando para congelar e motor funcionando constantemente podem indicar falhas internas.",
       "Acúmulo excessivo de gelo e borrachas desgastadas também afetam o desempenho e o consumo elétrico.",
@@ -53,7 +53,7 @@ window.POSTS = [
     description: "A prevenção evita falhas inesperadas e ajuda a manter o funcionamento correto.",
     date: "2026-05-17",
     category: "Refrigeração Comercial",
-    image: "/assets/img/blog/quando-fazer-manutencao-preventiva-balcoes-refrigerados.png",
+    image: "/assets/img/blog/quando-fazer-manutencao-preventiva-balcoes-refrigerados.webp",
     content: [
       "Baixa refrigeração e dificuldade para manter a temperatura são sinais comuns de desgaste no sistema.",
       "Ruídos diferentes, vazamentos e excesso de umidade também indicam necessidade de inspeção técnica.",
@@ -69,7 +69,7 @@ window.POSTS = [
     description: "Identifique os sinais antes que a falha afete o ambiente e o desempenho do equipamento.",
     date: "2026-05-16",
     category: "Diagnóstico",
-    image: "/assets/img/blog/problemas-comuns-ar-condicionado-comercial.png",
+    image: "/assets/img/blog/problemas-comuns-ar-condicionado-comercial.webp",
     content: [
       "Baixa refrigeração e mau cheiro são sintomas frequentes de falta de manutenção no sistema.",
       "Gotejamento, aumento na conta de energia e desligamentos inesperados também exigem atenção.",
@@ -85,7 +85,7 @@ window.POSTS = [
     description: "Entenda a periodicidade ideal de limpeza para manter eficiência e qualidade do ar.",
     date: "2026-04-10",
     category: "Manutenção",
-    image: "/assets/img/blog/limpar-ar-condicionado-frequencia.png",
+    image: "/assets/img/blog/limpar-ar-condicionado-frequencia.webp",
     content: [
       "A frequência de limpeza depende da intensidade de uso do equipamento e do ambiente onde ele está instalado.",
       "Para residências com uso moderado, a limpeza técnica a cada 6 meses costuma ser suficiente. Já comércios com operação diária podem exigir intervalos menores.",
@@ -101,7 +101,7 @@ window.POSTS = [
     description: "Veja os principais alertas de falha e quando acionar assistência técnica.",
     date: "2026-04-18",
     category: "Diagnóstico",
-    image: "/assets/img/blog/sinais-manutencao-ar-condicionado.png",
+    image: "/assets/img/blog/sinais-manutencao-ar-condicionado.webp",
     content: [
       "Ruído incomum, odor forte e baixa refrigeração são sinais frequentes de necessidade de manutenção.",
       "Outros sinais importantes incluem gotejamento, aumento de consumo de energia e desligamentos inesperados.",
@@ -117,7 +117,7 @@ window.POSTS = [
     description: "Saiba como funciona a tecnologia inverter e quando ela realmente reduz consumo.",
     date: "2026-04-25",
     category: "Eficiência Energética",
-    image: "/assets/img/blog/ar-condicionado-inverter-economia-energia.png",
+    image: "/assets/img/blog/ar-condicionado-inverter-economia-energia.webp",
     content: [
       "Sim, em geral equipamentos inverter economizam energia por trabalhar com rotação variável do compressor.",
       "A economia real depende de instalação correta, dimensionamento adequado e manutenção em dia.",
@@ -133,7 +133,7 @@ window.POSTS = [
     description: "Método de higienização técnica para ar-condicionado com menos sujeira e mais eficiência.",
     date: "2026-05-02",
     category: "Limpeza Técnica",
-    image: "/assets/img/blog/limpeza-com-bolsao-como-funciona.png",
+    image: "/assets/img/blog/limpeza-com-bolsao-como-funciona.webp",
     content: [
       "A limpeza com bolsão utiliza uma estrutura de contenção para captar água e resíduos durante a lavagem da evaporadora.",
       "Isso permite uma higienização mais profunda sem comprometer móveis, paredes e piso.",
@@ -149,7 +149,7 @@ window.POSTS = [
     description: "Descubra a rotina recomendada para evitar perdas e falhas em operações refrigeradas.",
     date: "2026-05-07",
     category: "Refrigeração Comercial",
-    image: "/assets/img/blog/manutencao-preventiva-camara-fria.png",
+    image: "/assets/img/blog/manutencao-preventiva-camara-fria.webp",
     content: [
       "Câmaras frias devem seguir manutenção preventiva periódica para evitar oscilações térmicas e perdas de estoque.",
       "Negócios com operação crítica geralmente precisam de inspeções mensais e revisão técnica mais completa em ciclos trimestrais.",
@@ -165,7 +165,7 @@ window.POSTS = [
     description: "Conheça falhas recorrentes em freezers industriais e como agir rapidamente.",
     date: "2026-05-12",
     category: "Refrigeração Comercial",
-    image: "/assets/img/blog/problemas-comuns-freezer-industrial.png",
+    image: "/assets/img/blog/problemas-comuns-freezer-industrial.webp",
     content: [
       "Entre os problemas mais comuns estão perda de temperatura, congelamento excessivo e ruídos anormais.",
       "Falhas em vedação, sensores e ventilação interna podem comprometer o desempenho.",
@@ -181,7 +181,7 @@ window.POSTS = [
     description: "Boas práticas para manter expositores de bebidas com refrigeração estável.",
     date: "2026-05-16",
     category: "Boas Práticas",
-    image: "/assets/img/blog/evitar-falhas-expositores-bebidas.png",
+    image: "/assets/img/blog/evitar-falhas-expositores-bebidas.webp",
     content: [
       "A limpeza periódica de condensador, revisão de vedação e monitoramento de temperatura são cuidados essenciais.",
       "Evitar sobrecarga e manter circulação de ar no equipamento ajuda a preservar desempenho.",

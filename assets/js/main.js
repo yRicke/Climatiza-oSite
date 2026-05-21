@@ -71,7 +71,7 @@
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       name: config.companyName,
-      image: `${config.baseUrl}/assets/img/hero-climatizacao.png`,
+      image: `${config.baseUrl}/assets/img/hero-climatizacao.webp`,
       telephone: config.phone,
       email: config.email,
       areaServed: [
@@ -169,7 +169,7 @@
       </div>
       <div class="container nav-wrap">
         <a class="brand" href="/" aria-label="Página inicial da Fórmula Climatização">
-          <img class="brand-logo" src="/assets/img/logo_formula.png" width="260" height="104" alt="Logo Fórmula Climatização">
+          <img class="brand-logo" src="/assets/img/logo_formula.webp" width="260" height="104" alt="Logo Fórmula Climatização">
         </a>
         <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">Menu</button>
         <nav id="site-nav" aria-label="Menu principal">

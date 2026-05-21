@@ -2,7 +2,7 @@ window.LOCATIONS = [
   {
     slug: "rio-verde",
     name: "Rio Verde",
-    image: "/assets/img/regiao_rio_verde/0.png",
+    image: "/assets/img/regiao_rio_verde/0.webp",
     intro: "A Fórmula Climatização oferece atendimento em Rio Verde - GO para instalação de ar-condicionado, manutenção de ar-condicionado, limpeza com bolsão, carga de gás, infraestrutura e serviços de refrigeração comercial com suporte técnico especializado.",
     localContext: "Rio Verde tem forte atividade residencial, comercial e industrial, o que aumenta a procura por empresa de ar-condicionado em Rio Verde, limpeza de ar-condicionado, assistência técnica em refrigeração e manutenção preventiva em câmara fria, freezer industrial, balcão refrigerado e expositores. Nosso atendimento na cidade é focado em agilidade, diagnóstico técnico e soluções para climatização e refrigeração comercial com mais segurança para casas, lojas, restaurantes, mercados e empresas.",
     serviceSlugs: [
