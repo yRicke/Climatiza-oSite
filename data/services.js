@@ -299,6 +299,36 @@ window.SERVICES = [
     seoDescription: "Carga de gás em ar-condicionado com análise técnica, ajuste correto e testes de desempenho em Goiás."
   },
   {
+    slug: "higienizacao-ar-condicionado-k7",
+    name: "Higienização de Ar-Condicionado K7",
+    shortDescription: "Higienização técnica para equipamentos K7 com limpeza adequada.",
+    description: "Executamos higienização de ar-condicionado K7 com limpeza técnica dos componentes internos para melhorar circulação de ar, rendimento e conservação do equipamento.",
+    category: "climatizacao",
+    image: "/assets/img/servico_higienizacao_ar_condicionado_k7/0.png",
+    galleryImages: ["/assets/img/servico_higienizacao_ar_condicionado_k7/0.png", "/assets/img/servico_higienizacao_ar_condicionado_k7/1.png"],
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Higienização de Ar-Condicionado K7 quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Higienização de Ar-Condicionado K7 em Goiás",
+    seoDescription: "Higienização técnica de ar-condicionado K7 com foco em limpeza e desempenho em Goiás."
+  },
+  {
     slug: "manutencao-cervejeira",
     name: "Manutenção em Cervejeira",
     shortDescription: "Assistência técnica para cervejeiras com foco em temperatura estável e eficiência.",
@@ -776,35 +806,6 @@ window.SERVICES = [
     seoDescription: "Higienização de ar-condicionado Split Hi-Wall com limpeza técnica e melhoria de desempenho em Goiás."
   },
   {
-    slug: "higienizacao-ar-condicionado-k7",
-    name: "Higienização de Ar-Condicionado K7",
-    shortDescription: "Higienização técnica para equipamentos K7 com limpeza adequada.",
-    description: "Executamos higienização de ar-condicionado K7 com limpeza técnica dos componentes internos para melhorar circulação de ar, rendimento e conservação do equipamento.",
-    category: "climatizacao",
-    image: "/assets/img/service-default.svg",
-    benefits: [
-      "Atendimento técnico com diagnóstico e execução adequada.",
-      "Recuperação do desempenho e maior confiabilidade do equipamento.",
-      "Redução do risco de novas falhas e paradas inesperadas."
-    ],
-    problems: [
-      "Higienização de Ar-Condicionado K7 quando há falhas de funcionamento.",
-      "Baixo desempenho, instabilidade ou operação irregular.",
-      "Necessidade de correção técnica para evitar agravamento do problema."
-    ],
-    process: [
-      "Avaliação técnica do equipamento e identificação da falha.",
-      "Execução do serviço com ajuste, reparo ou substituição necessária.",
-      "Teste final para validar funcionamento e desempenho."
-    ],
-    faq: [
-      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
-      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
-    ],
-    seoTitle: "Higienização de Ar-Condicionado K7 em Goiás",
-    seoDescription: "Higienização técnica de ar-condicionado K7 com foco em limpeza e desempenho em Goiás."
-  },
-  {
     slug: "higienizacao-ar-condicionado-piso-teto",
     name: "Higienização de Ar-Condicionado Piso Teto",
     shortDescription: "Limpeza técnica para equipamentos piso teto com maior eficiência.",
@@ -1158,7 +1159,8 @@ window.SERVICES = [
     shortDescription: "Substituição técnica do compressor para recuperar refrigeração.",
     description: "Fazemos troca de compressor de geladeira com diagnóstico do sistema, substituição do componente e testes para restabelecer desempenho e confiabilidade.",
     category: "refrigeracao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_troca_compressor_geladeira/0.png",
+    galleryImages: ["/assets/img/servico_troca_compressor_geladeira/0.png"],
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
       "Recuperação do desempenho e maior confiabilidade do equipamento.",
@@ -1187,7 +1189,8 @@ window.SERVICES = [
     shortDescription: "Substituição técnica do motor da geladeira com teste final.",
     description: "Executamos troca de motor de geladeira com análise da falha, substituição adequada do componente e validação do funcionamento do equipamento.",
     category: "refrigeracao",
-    image: "/assets/img/service-default.svg",
+    image: "/assets/img/servico_troca_motor_geladeira/0.png",
+    galleryImages: ["/assets/img/servico_troca_motor_geladeira/0.png"],
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
       "Recuperação do desempenho e maior confiabilidade do equipamento.",
@@ -1209,6 +1212,36 @@ window.SERVICES = [
     ],
     seoTitle: "Troca de Motor de Geladeira em Goiás",
     seoDescription: "Troca de motor de geladeira com suporte técnico especializado em Goiás."
+  },
+  {
+    slug: "carga-gas-geladeira",
+    name: "Carga de Gás em Geladeira",
+    shortDescription: "Ajuste técnico de fluido refrigerante para recuperar desempenho.",
+    description: "Fazemos carga de gás em geladeira com avaliação de pressão, verificação do sistema e ajuste correto para restabelecer a refrigeração.",
+    category: "refrigeracao",
+    image: "/assets/img/servico_carga_gas_geladeira/0.png",
+    galleryImages: ["/assets/img/servico_carga_gas_geladeira/0.png"],
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Carga de Gás em Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Carga de Gás em Geladeira em Goiás",
+    seoDescription: "Carga de gás em geladeira com avaliação técnica e ajuste correto em Goiás."
   },
   {
     slug: "troca-sensor-temperatura-geladeira",
@@ -1441,35 +1474,6 @@ window.SERVICES = [
     ],
     seoTitle: "Troca de Pré-Condensadora de Geladeira em Goiás",
     seoDescription: "Troca de pré-condensadora de geladeira com suporte técnico em Goiás."
-  },
-  {
-    slug: "carga-gas-geladeira",
-    name: "Carga de Gás em Geladeira",
-    shortDescription: "Ajuste técnico de fluido refrigerante para recuperar desempenho.",
-    description: "Fazemos carga de gás em geladeira com avaliação de pressão, verificação do sistema e ajuste correto para restabelecer a refrigeração.",
-    category: "refrigeracao",
-    image: "/assets/img/service-default.svg",
-    benefits: [
-      "Atendimento técnico com diagnóstico e execução adequada.",
-      "Recuperação do desempenho e maior confiabilidade do equipamento.",
-      "Redução do risco de novas falhas e paradas inesperadas."
-    ],
-    problems: [
-      "Carga de Gás em Geladeira quando há falhas de funcionamento.",
-      "Baixo desempenho, instabilidade ou operação irregular.",
-      "Necessidade de correção técnica para evitar agravamento do problema."
-    ],
-    process: [
-      "Avaliação técnica do equipamento e identificação da falha.",
-      "Execução do serviço com ajuste, reparo ou substituição necessária.",
-      "Teste final para validar funcionamento e desempenho."
-    ],
-    faq: [
-      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
-      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
-    ],
-    seoTitle: "Carga de Gás em Geladeira em Goiás",
-    seoDescription: "Carga de gás em geladeira com avaliação técnica e ajuste correto em Goiás."
   },
   {
     slug: "troca-evaporador-geladeira",
