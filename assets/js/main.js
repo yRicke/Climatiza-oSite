@@ -299,10 +299,10 @@
     `;
   }
 
-  function renderIncrementalServiceGroup(grid, controls, category) {
+  function renderIncrementalServiceGroup(grid, controls, filterFn) {
     if (!grid || !controls) return;
 
-    const categoryServices = services.filter((service) => service.category === category);
+    const categoryServices = services.filter(filterFn);
     const step = 4;
     const minVisible = Math.min(step, categoryServices.length);
     let visibleCount = minVisible;
@@ -519,8 +519,16 @@
     const climControls = document.getElementById("services-controls-climatizacao");
     const refrigControls = document.getElementById("services-controls-refrigeracao");
 
-    renderIncrementalServiceGroup(clim, climControls, "climatizacao");
-    renderIncrementalServiceGroup(refrig, refrigControls, "refrigeracao");
+    renderIncrementalServiceGroup(
+      clim,
+      climControls,
+      (service) => service.category === "climatizacao" || service.audience === "leve"
+    );
+    renderIncrementalServiceGroup(
+      refrig,
+      refrigControls,
+      (service) => service.category === "refrigeracao" && service.audience !== "leve"
+    );
 
     renderBreadcrumb([
       { label: "Home", href: "/" },
@@ -591,7 +599,14 @@
       areas.innerHTML = (config.mainCities || []).map((item) => `<li>${safeText(item)} e região</li>`).join("");
     }
     if (related) {
-      const relatedServices = services.filter((item) => item.category === service.category && item.slug !== service.slug).slice(0, 3);
+      const relatedServices = services
+        .filter(
+          (item) =>
+            item.category === service.category &&
+            (item.audience || "") === (service.audience || "") &&
+            item.slug !== service.slug
+        )
+        .slice(0, 3);
       related.innerHTML = relatedServices.map(serviceCard).join("");
     }
 
@@ -612,7 +627,11 @@
   function renderCommercial() {
     const grid = document.getElementById("commercial-services-grid");
     const controls = document.getElementById("commercial-services-controls");
-    renderIncrementalServiceGroup(grid, controls, "refrigeracao");
+    renderIncrementalServiceGroup(
+      grid,
+      controls,
+      (service) => service.category === "refrigeracao" && service.audience !== "leve"
+    );
     renderBreadcrumb([
       { label: "Home", href: "/" },
       { label: "Refrigeração Comercial", href: "/refrigeracao-comercial.html" }

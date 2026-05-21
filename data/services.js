@@ -364,6 +364,7 @@ window.SERVICES = [
     shortDescription: "Conserto técnico de geladeira com diagnóstico preciso e correção da falha.",
     description: "Realizamos conserto de geladeira com avaliação completa do sistema de refrigeração, identificação da causa do problema e reparo adequado para recuperar o funcionamento.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/servico_conserto_geladeira/0.png",
     galleryImages: ["/assets/img/servico_conserto_geladeira/0.png"],
     benefits: [
@@ -394,6 +395,7 @@ window.SERVICES = [
     shortDescription: "Higienização técnica para eliminar sujeira, odores e melhorar conservação.",
     description: "Executamos higienização interna e externa de geladeira com limpeza técnica de superfícies, componentes e áreas de contato, contribuindo para melhor desempenho e qualidade sanitária.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/servico_higienizacao_interna_externa_geladeira/0.png",
     galleryImages: ["/assets/img/servico_higienizacao_interna_externa_geladeira/0.png"],
     benefits: [
@@ -424,6 +426,7 @@ window.SERVICES = [
     shortDescription: "Substituição técnica de peças para recuperar desempenho da geladeira.",
     description: "Fazemos troca de peças de geladeira após diagnóstico técnico, com substituição de componentes desgastados ou com falha para restabelecer refrigeração e confiabilidade.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/servico_troca_pecas_geladeira/0.png",
     galleryImages: ["/assets/img/servico_troca_pecas_geladeira/0.png"],
     benefits: [
@@ -454,6 +457,7 @@ window.SERVICES = [
     shortDescription: "Correção e prevenção de falhas para manter a geladeira em operação segura.",
     description: "Realizamos manutenção em geladeira com diagnóstico completo, ajustes técnicos e correções para recuperar refrigeração e evitar perdas.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/servico_manutencao_geladeira/0.png",
     galleryImages: ["/assets/img/servico_manutencao_geladeira/0.png"],
     benefits: [
@@ -477,6 +481,99 @@ window.SERVICES = [
     ],
     seoTitle: "Manutenção em Geladeira em Goiás",
     seoDescription: "Assistência técnica e manutenção em geladeira com diagnóstico e reparo especializado em Goiás."
+  },
+  {
+    slug: "troca-compressor-geladeira",
+    name: "Troca de Compressor de Geladeira",
+    shortDescription: "Substituição técnica do compressor para recuperar refrigeração.",
+    description: "Fazemos troca de compressor de geladeira com diagnóstico do sistema, substituição do componente e testes para restabelecer desempenho e confiabilidade.",
+    category: "refrigeracao",
+    audience: "leve",
+    image: "/assets/img/servico_troca_compressor_geladeira/0.png",
+    galleryImages: ["/assets/img/servico_troca_compressor_geladeira/0.png"],
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Compressor de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Compressor de Geladeira em Goiás",
+    seoDescription: "Troca de compressor de geladeira com diagnóstico e substituição técnica em Goiás."
+  },
+  {
+    slug: "troca-motor-geladeira",
+    name: "Troca de Motor de Geladeira",
+    shortDescription: "Substituição técnica do motor da geladeira com teste final.",
+    description: "Executamos troca de motor de geladeira com análise da falha, substituição adequada do componente e validação do funcionamento do equipamento.",
+    category: "refrigeracao",
+    audience: "leve",
+    image: "/assets/img/servico_troca_motor_geladeira/0.png",
+    galleryImages: ["/assets/img/servico_troca_motor_geladeira/0.png"],
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Troca de Motor de Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Troca de Motor de Geladeira em Goiás",
+    seoDescription: "Troca de motor de geladeira com suporte técnico especializado em Goiás."
+  },
+  {
+    slug: "carga-gas-geladeira",
+    name: "Carga de Gás em Geladeira",
+    shortDescription: "Ajuste técnico de fluido refrigerante para recuperar desempenho.",
+    description: "Fazemos carga de gás em geladeira com avaliação de pressão, verificação do sistema e ajuste correto para restabelecer a refrigeração.",
+    category: "refrigeracao",
+    audience: "leve",
+    image: "/assets/img/servico_carga_gas_geladeira/0.png",
+    galleryImages: ["/assets/img/servico_carga_gas_geladeira/0.png"],
+    benefits: [
+      "Atendimento técnico com diagnóstico e execução adequada.",
+      "Recuperação do desempenho e maior confiabilidade do equipamento.",
+      "Redução do risco de novas falhas e paradas inesperadas."
+    ],
+    problems: [
+      "Carga de Gás em Geladeira quando há falhas de funcionamento.",
+      "Baixo desempenho, instabilidade ou operação irregular.",
+      "Necessidade de correção técnica para evitar agravamento do problema."
+    ],
+    process: [
+      "Avaliação técnica do equipamento e identificação da falha.",
+      "Execução do serviço com ajuste, reparo ou substituição necessária.",
+      "Teste final para validar funcionamento e desempenho."
+    ],
+    faq: [
+      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
+      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
+    ],
+    seoTitle: "Carga de Gás em Geladeira em Goiás",
+    seoDescription: "Carga de gás em geladeira com avaliação técnica e ajuste correto em Goiás."
   },
   {
     slug: "manutencao-balcao-refrigerado",
@@ -1152,103 +1249,14 @@ window.SERVICES = [
     ],
     seoTitle: "Conserto de Vazamento de Gás de Ar-Condicionado em Goiás",
     seoDescription: "Conserto de vazamento de gás de ar-condicionado com localização da falha e reparo técnico em Goiás."
-  },
-  {
-    slug: "troca-compressor-geladeira",
-    name: "Troca de Compressor de Geladeira",
-    shortDescription: "Substituição técnica do compressor para recuperar refrigeração.",
-    description: "Fazemos troca de compressor de geladeira com diagnóstico do sistema, substituição do componente e testes para restabelecer desempenho e confiabilidade.",
-    category: "refrigeracao",
-    image: "/assets/img/servico_troca_compressor_geladeira/0.png",
-    galleryImages: ["/assets/img/servico_troca_compressor_geladeira/0.png"],
-    benefits: [
-      "Atendimento técnico com diagnóstico e execução adequada.",
-      "Recuperação do desempenho e maior confiabilidade do equipamento.",
-      "Redução do risco de novas falhas e paradas inesperadas."
-    ],
-    problems: [
-      "Troca de Compressor de Geladeira quando há falhas de funcionamento.",
-      "Baixo desempenho, instabilidade ou operação irregular.",
-      "Necessidade de correção técnica para evitar agravamento do problema."
-    ],
-    process: [
-      "Avaliação técnica do equipamento e identificação da falha.",
-      "Execução do serviço com ajuste, reparo ou substituição necessária.",
-      "Teste final para validar funcionamento e desempenho."
-    ],
-    faq: [
-      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
-      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
-    ],
-    seoTitle: "Troca de Compressor de Geladeira em Goiás",
-    seoDescription: "Troca de compressor de geladeira com diagnóstico e substituição técnica em Goiás."
-  },
-  {
-    slug: "troca-motor-geladeira",
-    name: "Troca de Motor de Geladeira",
-    shortDescription: "Substituição técnica do motor da geladeira com teste final.",
-    description: "Executamos troca de motor de geladeira com análise da falha, substituição adequada do componente e validação do funcionamento do equipamento.",
-    category: "refrigeracao",
-    image: "/assets/img/servico_troca_motor_geladeira/0.png",
-    galleryImages: ["/assets/img/servico_troca_motor_geladeira/0.png"],
-    benefits: [
-      "Atendimento técnico com diagnóstico e execução adequada.",
-      "Recuperação do desempenho e maior confiabilidade do equipamento.",
-      "Redução do risco de novas falhas e paradas inesperadas."
-    ],
-    problems: [
-      "Troca de Motor de Geladeira quando há falhas de funcionamento.",
-      "Baixo desempenho, instabilidade ou operação irregular.",
-      "Necessidade de correção técnica para evitar agravamento do problema."
-    ],
-    process: [
-      "Avaliação técnica do equipamento e identificação da falha.",
-      "Execução do serviço com ajuste, reparo ou substituição necessária.",
-      "Teste final para validar funcionamento e desempenho."
-    ],
-    faq: [
-      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
-      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
-    ],
-    seoTitle: "Troca de Motor de Geladeira em Goiás",
-    seoDescription: "Troca de motor de geladeira com suporte técnico especializado em Goiás."
-  },
-  {
-    slug: "carga-gas-geladeira",
-    name: "Carga de Gás em Geladeira",
-    shortDescription: "Ajuste técnico de fluido refrigerante para recuperar desempenho.",
-    description: "Fazemos carga de gás em geladeira com avaliação de pressão, verificação do sistema e ajuste correto para restabelecer a refrigeração.",
-    category: "refrigeracao",
-    image: "/assets/img/servico_carga_gas_geladeira/0.png",
-    galleryImages: ["/assets/img/servico_carga_gas_geladeira/0.png"],
-    benefits: [
-      "Atendimento técnico com diagnóstico e execução adequada.",
-      "Recuperação do desempenho e maior confiabilidade do equipamento.",
-      "Redução do risco de novas falhas e paradas inesperadas."
-    ],
-    problems: [
-      "Carga de Gás em Geladeira quando há falhas de funcionamento.",
-      "Baixo desempenho, instabilidade ou operação irregular.",
-      "Necessidade de correção técnica para evitar agravamento do problema."
-    ],
-    process: [
-      "Avaliação técnica do equipamento e identificação da falha.",
-      "Execução do serviço com ajuste, reparo ou substituição necessária.",
-      "Teste final para validar funcionamento e desempenho."
-    ],
-    faq: [
-      { question: "O serviço inclui diagnóstico técnico antes da execução?", answer: "Sim, avaliamos o equipamento para confirmar a melhor solução antes de executar o serviço." },
-      { question: "Vocês finalizam com teste de funcionamento?", answer: "Sim, o atendimento é concluído com validação técnica do funcionamento do equipamento." }
-    ],
-    seoTitle: "Carga de Gás em Geladeira em Goiás",
-    seoDescription: "Carga de gás em geladeira com avaliação técnica e ajuste correto em Goiás."
-  },
+  },
   {
     slug: "troca-sensor-temperatura-geladeira",
     name: "Troca de Sensor de Temperatura de Geladeira",
     shortDescription: "Substituição de sensor para corrigir leitura e controle térmico.",
     description: "Realizamos troca de sensor de temperatura de geladeira para corrigir falhas de leitura, melhorar o controle térmico e recuperar o funcionamento correto.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1278,6 +1286,7 @@ window.SERVICES = [
     shortDescription: "Substituição técnica do sensor de degelo com teste de funcionamento.",
     description: "Fazemos troca de sensor de degelo de geladeira com análise do sistema, substituição do componente e validação do ciclo de degelo.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1307,6 +1316,7 @@ window.SERVICES = [
     shortDescription: "Substituição do ventilador para recuperar circulação e refrigeração.",
     description: "Executamos troca de ventilador de geladeira com diagnóstico da falha, substituição adequada e testes para restabelecer circulação interna de ar.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1336,6 +1346,7 @@ window.SERVICES = [
     shortDescription: "Substituição técnica da resistência para corrigir falhas de degelo.",
     description: "Realizamos troca de resistência de geladeira com verificação do sistema de degelo, substituição do componente e testes de funcionamento.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1365,6 +1376,7 @@ window.SERVICES = [
     shortDescription: "Substituição da placa de potência com validação do sistema.",
     description: "Fazemos troca de placa de potência de geladeira com diagnóstico eletrônico, substituição técnica e testes para recuperar o funcionamento do equipamento.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1394,6 +1406,7 @@ window.SERVICES = [
     shortDescription: "Substituição da placa interface para recuperar comandos e operação.",
     description: "Executamos troca de placa interface de geladeira com análise da falha, substituição do componente e teste dos comandos do equipamento.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1423,6 +1436,7 @@ window.SERVICES = [
     shortDescription: "Correção técnica da linha de sucção para restabelecer o circuito.",
     description: "Realizamos serviço na linha de sucção de geladeira com avaliação do circuito, correção técnica e testes para recuperar a eficiência da refrigeração.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1452,6 +1466,7 @@ window.SERVICES = [
     shortDescription: "Substituição técnica da pré-condensadora com validação do sistema.",
     description: "Executamos troca de pré-condensadora de geladeira com avaliação técnica do circuito, substituição do componente e testes de desempenho.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1481,6 +1496,7 @@ window.SERVICES = [
     shortDescription: "Substituição técnica do evaporador para corrigir falhas de refrigeração.",
     description: "Realizamos troca do evaporador de geladeira com diagnóstico da falha, substituição do componente e testes para recuperar desempenho térmico.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1510,6 +1526,7 @@ window.SERVICES = [
     shortDescription: "Correção técnica de vazamento no circuito da geladeira.",
     description: "Executamos conserto de vazamento de gás em geladeira com localização da falha, reparo do circuito e testes de estanqueidade e desempenho.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1539,6 +1556,7 @@ window.SERVICES = [
     shortDescription: "Substituição da porta para melhorar vedação, uso e conservação.",
     description: "Fazemos troca de porta de geladeira com avaliação do encaixe, substituição adequada e verificação da vedação do equipamento.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
@@ -1568,6 +1586,7 @@ window.SERVICES = [
     shortDescription: "Substituição técnica do filtro para manter desempenho e qualidade.",
     description: "Realizamos troca de filtro de geladeira com verificação do modelo, substituição correta do componente e orientação de manutenção.",
     category: "refrigeracao",
+    audience: "leve",
     image: "/assets/img/service-default.svg",
     benefits: [
       "Atendimento técnico com diagnóstico e execução adequada.",
