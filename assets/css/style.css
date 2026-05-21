@@ -45,6 +45,11 @@ a {
   margin: 0 auto;
 }
 
+.container-hero {
+  width: min(var(--max-width), 92%);
+  margin: 0 12.5%;
+}
+
 .skip-link {
   position: absolute;
   left: -999px;
@@ -529,6 +534,12 @@ p {
   border: 1px solid var(--color-primary);
   color: var(--color-primary);
   background: transparent;
+}
+
+.btn-outline-hero {
+  border: 1px solid #1a97ff;
+  color: #1a97ff;
+  background: rgba(0, 21, 48, 0.452);
 }
 
 .cta-section {
