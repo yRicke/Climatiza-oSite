@@ -576,6 +576,99 @@ window.SERVICES = [
     seoDescription: "Carga de gás em geladeira com avaliação técnica e ajuste correto em Goiás."
   },
   {
+    slug: "higienizacao-maquina-de-lavar",
+    name: "Higienização de Máquina de Lavar",
+    shortDescription: "Limpeza técnica para remover resíduos, odores e melhorar o desempenho da máquina.",
+    description: "Executamos higienização de máquina de lavar com limpeza interna e externa dos principais componentes, remoção de sujeira acumulada e cuidados que ajudam a preservar o funcionamento do equipamento.",
+    category: "refrigeracao",
+    audience: "leve",
+    image: "/assets/img/service-default.svg",
+    galleryImages: ["/assets/img/service-default.svg"],
+    benefits: [
+      "Reduz odores e acúmulo de resíduos no equipamento.",
+      "Contribui para melhor desempenho nas lavagens.",
+      "Ajuda a preservar peças e aumentar a vida útil da máquina."
+    ],
+    problems: [
+      "Mau cheiro constante na máquina de lavar.",
+      "Acúmulo de sujeira, lodo ou resíduos de sabão.",
+      "Baixo rendimento e necessidade de limpeza técnica."
+    ],
+    process: [
+      "Inspeção inicial do estado da máquina e dos pontos críticos.",
+      "Higienização técnica das áreas internas e externas.",
+      "Finalização com orientações de uso e manutenção preventiva."
+    ],
+    faq: [
+      { question: "A higienização ajuda a eliminar cheiro ruim na máquina?", answer: "Sim, a limpeza técnica ajuda a remover resíduos e odores acumulados." },
+      { question: "Vocês fazem higienização em máquina de lavar residencial e comercial leve?", answer: "Sim, atendemos diferentes modelos conforme avaliação técnica." }
+    ],
+    seoTitle: "Higienização de Máquina de Lavar em Goiás | Fórmula Climatização",
+    seoDescription: "Higienização de máquina de lavar com limpeza técnica para remover resíduos, odores e melhorar o desempenho em Goiás."
+  },
+  {
+    slug: "troca-mecanismos-maquina-de-lavar",
+    name: "Troca de Mecanismos de Máquina de Lavar",
+    shortDescription: "Substituição técnica de mecanismos com falha para recuperar o funcionamento da máquina.",
+    description: "Realizamos troca de mecanismos de máquina de lavar após diagnóstico técnico, substituindo componentes desgastados ou com defeito para restabelecer segurança, desempenho e confiabilidade do equipamento.",
+    category: "refrigeracao",
+    audience: "leve",
+    image: "/assets/img/service-default.svg",
+    galleryImages: ["/assets/img/service-default.svg"],
+    benefits: [
+      "Recupera o funcionamento correto da máquina de lavar.",
+      "Evita agravamento de falhas mecânicas e elétricas.",
+      "Aumenta a confiabilidade do equipamento no dia a dia."
+    ],
+    problems: [
+      "Máquina não gira, não centrifuga ou falha no ciclo.",
+      "Peças internas com desgaste ou quebra.",
+      "Funcionamento irregular por mecanismo com defeito."
+    ],
+    process: [
+      "Diagnóstico técnico para identificar o mecanismo com falha.",
+      "Troca da peça necessária com ajuste adequado.",
+      "Teste final de funcionamento e validação do ciclo."
+    ],
+    faq: [
+      { question: "Vocês trocam mecanismos de diferentes modelos?", answer: "Sim, avaliamos a compatibilidade e a necessidade técnica de cada máquina." },
+      { question: "O serviço termina com teste de funcionamento?", answer: "Sim, finalizamos com validação prática do equipamento após a troca." }
+    ],
+    seoTitle: "Troca de Mecanismos de Máquina de Lavar em Goiás",
+    seoDescription: "Troca de mecanismos de máquina de lavar com diagnóstico técnico e substituição adequada em Goiás."
+  },
+  {
+    slug: "revisao-mecanica-maquina-de-lavar",
+    name: "Revisão Mecânica de Máquina de Lavar",
+    shortDescription: "Revisão técnica para identificar desgastes, corrigir falhas e prevenir paradas.",
+    description: "Fazemos revisão mecânica de máquina de lavar com inspeção detalhada dos componentes, ajustes necessários e correções preventivas para manter o equipamento operando com mais segurança e estabilidade.",
+    category: "refrigeracao",
+    audience: "leve",
+    image: "/assets/img/service-default.svg",
+    galleryImages: ["/assets/img/service-default.svg"],
+    benefits: [
+      "Ajuda a identificar falhas antes que se agravem.",
+      "Reduz risco de paradas inesperadas da máquina.",
+      "Melhora a segurança e a estabilidade do funcionamento."
+    ],
+    problems: [
+      "Ruídos, trepidações ou instabilidade na lavagem.",
+      "Desgaste mecânico em componentes internos.",
+      "Necessidade de revisão preventiva para evitar quebras."
+    ],
+    process: [
+      "Avaliação técnica dos componentes mecânicos da máquina.",
+      "Ajustes, reapertos e correções conforme necessidade.",
+      "Teste final para validar desempenho e operação."
+    ],
+    faq: [
+      { question: "A revisão mecânica ajuda a evitar consertos maiores?", answer: "Sim, a revisão preventiva permite identificar desgastes antes de falhas mais graves." },
+      { question: "Vocês fazem revisão em máquina de lavar de uso residencial e comercial leve?", answer: "Sim, atendemos conforme o modelo e a condição do equipamento." }
+    ],
+    seoTitle: "Revisão Mecânica de Máquina de Lavar em Goiás",
+    seoDescription: "Revisão mecânica de máquina de lavar com inspeção técnica, ajustes e prevenção de falhas em Goiás."
+  },
+  {
     slug: "manutencao-balcao-refrigerado",
     name: "Manutenção em Balcão Refrigerado",
     shortDescription: "Serviço técnico para balcões refrigerados com foco em estabilidade e conservação.",
