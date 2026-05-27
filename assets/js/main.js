@@ -259,35 +259,6 @@
     });
   }
 
-  function gtmPushEvent(eventName, data = {}) {
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event: eventName, ...data });
-  }
-
-  function trackButtonClicks() {
-    document.body.addEventListener("click", (event) => {
-      const target = event.target.closest("a.btn, button.btn, .js-whatsapp-link, .carousel-btn");
-      if (!target) return;
-
-      const label =
-        target.dataset.gtmLabel ||
-        target.id ||
-        target.getAttribute("aria-label") ||
-        target.textContent.trim().slice(0, 80);
-      const category = target.matches(".js-whatsapp-link")
-        ? "whatsapp"
-        : target.matches(".carousel-btn")
-        ? "carousel"
-        : "button";
-
-      gtmPushEvent("button_click", {
-        button_category: category,
-        button_label: label,
-        button_text: target.textContent.trim()
-      });
-    });
-  }
-
   function serviceCard(service) {
     return `
       <article class="card">
@@ -846,7 +817,6 @@
     renderFooter();
     renderFloatingWhatsApp();
     applyWhatsappLinks();
-    trackButtonClicks();
     injectSchema(localBusinessSchema());
 
     switch (page) {
