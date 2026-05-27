@@ -38,7 +38,15 @@
       "destination": "/pages/index.html"
     },
     {
+      "source": "/index",
+      "destination": "/pages/index.html"
+    },
+    {
       "source": "/sobre.html",
+      "destination": "/pages/sobre.html"
+    },
+    {
+      "source": "/sobre",
       "destination": "/pages/sobre.html"
     },
     {
@@ -46,7 +54,15 @@
       "destination": "/pages/servicos.html"
     },
     {
+      "source": "/servicos",
+      "destination": "/pages/servicos.html"
+    },
+    {
       "source": "/refrigeracao-comercial.html",
+      "destination": "/pages/refrigeracao-comercial.html"
+    },
+    {
+      "source": "/refrigeracao-comercial",
       "destination": "/pages/refrigeracao-comercial.html"
     },
     {
@@ -54,7 +70,15 @@
       "destination": "/pages/areas-atendidas.html"
     },
     {
+      "source": "/areas-atendidas",
+      "destination": "/pages/areas-atendidas.html"
+    },
+    {
       "source": "/blog.html",
+      "destination": "/pages/blog.html"
+    },
+    {
+      "source": "/blog",
       "destination": "/pages/blog.html"
     },
     {
@@ -62,7 +86,15 @@
       "destination": "/pages/avaliacoes.html"
     },
     {
+      "source": "/avaliacoes",
+      "destination": "/pages/avaliacoes.html"
+    },
+    {
       "source": "/contato.html",
+      "destination": "/pages/contato.html"
+    },
+    {
+      "source": "/contato",
       "destination": "/pages/contato.html"
     },
     {
