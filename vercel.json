@@ -10,7 +10,7 @@
       ]
     },
     {
-      "source": "/hero_banner.webp",
+      "source": "/assets/img/hero_banner.webp",
       "headers": [
         {
           "key": "Cache-Control",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "source": "/hero_banner.png",
+      "source": "/assets/img/hero_banner.png",
       "headers": [
         {
           "key": "Cache-Control",
@@ -30,8 +30,48 @@
   ],
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/pages/index.html"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/pages/index.html"
+    },
+    {
+      "source": "/sobre.html",
+      "destination": "/pages/sobre.html"
+    },
+    {
+      "source": "/servicos.html",
+      "destination": "/pages/servicos.html"
+    },
+    {
+      "source": "/refrigeracao-comercial.html",
+      "destination": "/pages/refrigeracao-comercial.html"
+    },
+    {
+      "source": "/areas-atendidas.html",
+      "destination": "/pages/areas-atendidas.html"
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/pages/blog.html"
+    },
+    {
+      "source": "/avaliacoes.html",
+      "destination": "/pages/avaliacoes.html"
+    },
+    {
+      "source": "/contato.html",
+      "destination": "/pages/contato.html"
+    },
+    {
       "source": "/servicos/:slug",
-      "destination": "/servicos/:slug.html"
+      "destination": "/pages/servicos/:slug.html"
+    },
+    {
+      "source": "/servicos/:slug.html",
+      "destination": "/pages/servicos/:slug.html"
     },
     {
       "source": "/blog/:slug",
@@ -43,7 +83,11 @@
     },
     {
       "source": "/areas-atendidas/:slug",
-      "destination": "/areas-atendidas/:slug.html"
+      "destination": "/pages/areas-atendidas/:slug.html"
+    },
+    {
+      "source": "/areas-atendidas/:slug.html",
+      "destination": "/pages/areas-atendidas/:slug.html"
     }
   ]
 }

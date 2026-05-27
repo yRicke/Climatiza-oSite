@@ -4,7 +4,7 @@ from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 IMAGE_DIRS = [ROOT / "assets" / "img"]
-ROOT_IMAGES = [ROOT / "hero_banner.png"]
+ROOT_IMAGES = [ROOT / "assets" / "img" / "hero_banner.png"]
 
 QUALITY = 78
 HERO_MAX_WIDTH = 1920

@@ -149,7 +149,7 @@ nav a[aria-current="page"] {
   padding: 64px 0;
   background:
     linear-gradient(90deg, rgba(0, 21, 48, 0.95) 0%, rgba(0, 34, 72, 0.82) 34%, rgba(0, 45, 89, 0.25) 62%, rgba(0, 31, 66, 0.08) 100%),
-    url("/hero_banner.webp") center right / cover no-repeat;
+    url("/assets/img/hero_banner.webp") center right / cover no-repeat;
 }
 
 .hero::before {
@@ -817,7 +817,7 @@ p {
     padding: 54px 0;
     background:
       linear-gradient(90deg, rgba(0, 21, 48, 0.96) 0%, rgba(0, 34, 72, 0.86) 48%, rgba(0, 45, 89, 0.38) 100%),
-      url("/hero_banner.webp") 62% center / cover no-repeat;
+      url("/assets/img/hero_banner.webp") 62% center / cover no-repeat;
   }
 
   .hero h1 {
