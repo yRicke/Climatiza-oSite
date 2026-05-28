@@ -53,6 +53,59 @@
     return `https://wa.me/${config.phoneRaw || "5564992377425"}?text=${encodeURIComponent(text)}`;
   }
 
+  function pushGtmEvent(eventName, payload = {}) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: eventName,
+      page_type: page || "",
+      page_slug: currentSlug || "",
+      page_title: document.title || "",
+      ...payload
+    });
+  }
+
+  function clickText(element) {
+    return (
+      element.dataset.trackLabel ||
+      element.getAttribute("aria-label") ||
+      element.textContent ||
+      ""
+    ).trim();
+  }
+
+  function clickType(element, href) {
+    if (element.dataset.trackType) return element.dataset.trackType;
+    if (element.classList.contains("js-whatsapp-link")) return "whatsapp";
+    if (href.startsWith("tel:")) return "phone";
+    if (href.startsWith("mailto:")) return "email";
+    if (element.classList.contains("menu-toggle")) return "menu_toggle";
+    if (element.classList.contains("carousel-btn")) return "carousel_control";
+    if (element.classList.contains("services-show-more") || element.id === "reviews-show-more") return "show_more";
+    if (element.classList.contains("services-show-less") || element.id === "reviews-show-less") return "show_less";
+    if (element.classList.contains("btn")) return "button";
+    if (element.tagName === "BUTTON") return "button";
+    return href ? "link" : "interaction";
+  }
+
+  function initClickTracking() {
+    document.addEventListener("click", (event) => {
+      const element = event.target.closest("a, button");
+      if (!element) return;
+
+      const href = element.getAttribute("href") || "";
+
+      pushGtmEvent("site_click", {
+        click_type: clickType(element, href),
+        click_text: clickText(element),
+        click_url: href,
+        click_id: element.id || "",
+        click_classes: element.className || "",
+        click_target: element.getAttribute("target") || "",
+        click_tag: element.tagName.toLowerCase()
+      });
+    });
+  }
+
   function injectSchema(schemaObject) {
     if (!schemaObject) return;
     const script = document.createElement("script");
@@ -750,6 +803,12 @@
         const cidade = formData.get("cidade");
         const mensagem = formData.get("mensagem");
         const text = `Olá, meu nome é ${nome}. Telefone: ${telefone}. Cidade: ${cidade}. Mensagem: ${mensagem}`;
+        pushGtmEvent("lead_submit", {
+          form_name: "contact_form",
+          lead_channel: "whatsapp",
+          lead_name: String(nome || ""),
+          lead_city: String(cidade || "")
+        });
         window.open(whatsappUrl(text), "_blank", "noopener");
       });
     }
@@ -818,6 +877,7 @@
     renderFloatingWhatsApp();
     applyWhatsappLinks();
     injectSchema(localBusinessSchema());
+    initClickTracking();
 
     switch (page) {
       case "home":
