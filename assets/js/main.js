@@ -39,13 +39,6 @@
       .replaceAll('"', "&quot;");
   }
 
-  function normalizeText(text) {
-    return String(text || "")
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase();
-  }
-
   function formatDate(dateString) {
     const date = new Date(`${dateString}T12:00:00`);
     return new Intl.DateTimeFormat("pt-BR", {
@@ -80,25 +73,9 @@
     ).trim();
   }
 
-  function isWhatsappHref(href) {
-    return (
-      href.startsWith("https://wa.me/") ||
-      href.startsWith("http://wa.me/") ||
-      href.startsWith("https://api.whatsapp.com/") ||
-      href.startsWith("http://api.whatsapp.com/") ||
-      href.startsWith("whatsapp://")
-    );
-  }
-
-  function isWhatsappElement(element, href) {
-    if (!element) return false;
-    if (element.classList.contains("js-whatsapp-link")) return true;
-    return isWhatsappHref(href || "");
-  }
-
   function clickType(element, href) {
     if (element.dataset.trackType) return element.dataset.trackType;
-    if (isWhatsappElement(element, href)) return "whatsapp";
+    if (element.classList.contains("js-whatsapp-link")) return "whatsapp";
     if (href.startsWith("tel:")) return "phone";
     if (href.startsWith("mailto:")) return "email";
     if (element.classList.contains("menu-toggle")) return "menu_toggle";
@@ -110,36 +87,13 @@
     return href ? "link" : "interaction";
   }
 
-  function inferWhatsappSource(element) {
-    if (!element) return "generic";
-    if (element.dataset.whatsappSource) return element.dataset.whatsappSource;
-    if (element.closest("#floating-whatsapp")) return "float";
-    if (element.closest(".topbar")) return "topbar";
-    if (element.closest("footer")) return "footer";
-    if (element.closest(".contact-card")) return "contact";
-    if (element.classList.contains("hero-whatsapp-link")) return "hero";
-
-    const label = normalizeText(clickText(element));
-
-    if (label.includes("orcamento")) return "orcamento";
-    if (label.includes("tecnico")) return "tecnico";
-    if (label.includes("atendimento")) return "atendimento";
-    if (element.closest(".cta-section")) return "cta";
-    return "generic";
-  }
-
-  function whatsappEventName(source) {
-    return `${source}_whatsapp_click`;
-  }
-
   function initClickTracking() {
     document.addEventListener("click", (event) => {
       const element = event.target.closest("a, button");
       if (!element) return;
 
       const href = element.getAttribute("href") || "";
-      const isWhatsapp = isWhatsappElement(element, href);
-      const payload = {
+      pushGtmEvent("site_click", {
         click_type: clickType(element, href),
         click_text: clickText(element),
         click_url: href,
@@ -147,21 +101,7 @@
         click_classes: element.className || "",
         click_target: element.getAttribute("target") || "",
         click_tag: element.tagName.toLowerCase()
-      };
-
-      pushGtmEvent("site_click", payload);
-
-      if (isWhatsapp) {
-        const whatsappSource = inferWhatsappSource(element);
-        const whatsappPayload = {
-          ...payload,
-          whatsapp_source: whatsappSource,
-          whatsapp_event_name: whatsappEventName(whatsappSource)
-        };
-
-        pushGtmEvent("whatsapp_click", whatsappPayload);
-        pushGtmEvent(whatsappEventName(whatsappSource), whatsappPayload);
-      }
+      });
     });
   }
 
@@ -276,7 +216,7 @@
       <div class="topbar">
         <div class="container topbar-inner">
           <p>Atendimento em todo o estado de Goiás</p>
-          <a class="js-whatsapp-link" data-whatsapp-source="topbar" href="${whatsappUrl()}">WhatsApp: ${config.phone || "(64) 99237-7425"}</a>
+          <a class="js-whatsapp-link" href="${whatsappUrl()}">WhatsApp: ${config.phone || "(64) 99237-7425"}</a>
         </div>
       </div>
       <div class="container nav-wrap">
@@ -324,7 +264,7 @@
           <section>
             <h2>${config.companyName || "Fórmula Climatização"}</h2>
             <p>Venda, instalação e manutenção de ar-condicionado e refrigeração comercial em Goiás.</p>
-            <p><strong>WhatsApp:</strong> <a class="js-whatsapp-link" data-whatsapp-source="footer" href="${whatsappUrl()}">${config.phone || "(64) 99237-7425"}</a></p>
+            <p><strong>WhatsApp:</strong> <a class="js-whatsapp-link" href="${whatsappUrl()}">${config.phone || "(64) 99237-7425"}</a></p>
             <p><strong>E-mail:</strong> <a href="mailto:${config.email || "marcostec.profissional@gmail.com"}">${config.email || "marcostec.profissional@gmail.com"}</a></p>
             ${config.addressFull ? `<p><strong>Endereço:</strong> ${safeText(config.addressFull)}</p>` : ""}
             ${config.googleMapsLocation ? `<p><strong>Localização:</strong> <a href="${config.googleMapsLocation}" target="_blank" rel="noopener">Ver no Google Maps</a></p>` : ""}
@@ -355,7 +295,7 @@
     if (!wrapper) return;
 
     wrapper.innerHTML = `
-      <a class="floating-whatsapp js-whatsapp-link" data-whatsapp-source="float" href="${whatsappUrl()}" target="_blank" rel="noopener" aria-label="Fale no WhatsApp">
+      <a class="floating-whatsapp js-whatsapp-link" href="${whatsappUrl()}" target="_blank" rel="noopener" aria-label="Fale no WhatsApp">
         WhatsApp
       </a>
     `;
