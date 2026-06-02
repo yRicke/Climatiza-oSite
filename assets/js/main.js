@@ -80,9 +80,25 @@
     ).trim();
   }
 
+  function isWhatsappHref(href) {
+    return (
+      href.startsWith("https://wa.me/") ||
+      href.startsWith("http://wa.me/") ||
+      href.startsWith("https://api.whatsapp.com/") ||
+      href.startsWith("http://api.whatsapp.com/") ||
+      href.startsWith("whatsapp://")
+    );
+  }
+
+  function isWhatsappElement(element, href) {
+    if (!element) return false;
+    if (element.classList.contains("js-whatsapp-link")) return true;
+    return isWhatsappHref(href || "");
+  }
+
   function clickType(element, href) {
     if (element.dataset.trackType) return element.dataset.trackType;
-    if (element.classList.contains("js-whatsapp-link")) return "whatsapp";
+    if (isWhatsappElement(element, href)) return "whatsapp";
     if (href.startsWith("tel:")) return "phone";
     if (href.startsWith("mailto:")) return "email";
     if (element.classList.contains("menu-toggle")) return "menu_toggle";
@@ -122,6 +138,7 @@
       if (!element) return;
 
       const href = element.getAttribute("href") || "";
+      const isWhatsapp = isWhatsappElement(element, href);
       const payload = {
         click_type: clickType(element, href),
         click_text: clickText(element),
@@ -134,7 +151,7 @@
 
       pushGtmEvent("site_click", payload);
 
-      if (element.classList.contains("js-whatsapp-link")) {
+      if (isWhatsapp) {
         const whatsappSource = inferWhatsappSource(element);
         const whatsappPayload = {
           ...payload,
